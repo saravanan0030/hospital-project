@@ -26,17 +26,37 @@
     margin-left: 34%;
     font-weight: 700; 
 }
-#img1{
-   margin: 2% 2% 2%;
- 
-     
-    
+#img1{ 
+   margin-left: 10%;  
 }
 .img2{
     display: inline-flex;
     color: white;
-    margin-left: 67%;
-  
+    margin-left: 66%;
+    margin-top: 3%;    
+}
+.image{
+    padding-bottom: 60%;
+   
+}
+#menu-icon{
+     display: none;
      
+}
+.navbar a{
+    color: black;
+    margin-left: 2rem;
+    opacity: 2.6;
+     
+    font-size: 1rem;
+    
+}
+.menu-bar{
+    padding-top: 3rem;
+    padding-left: 9rem;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: burlywood;
 }
  
