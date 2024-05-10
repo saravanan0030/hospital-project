@@ -18,7 +18,7 @@
 
 }
 .font{
-    background-color: green;  
+    background-color: lightblue;  
 }
 .icon-number{
     display: inline;
@@ -26,8 +26,10 @@
     margin-left: 34%;
     font-weight: 700; 
 }
-#img1{ 
-   margin-left: 10%;  
+.img1{ 
+   display:inline; 
+   margin-left: 1%;
+   size: 2%;
 }
 .img2{
     display: inline-flex;
@@ -44,19 +46,56 @@
      
 }
 .navbar a{
+    position: relative;
     color: black;
-    margin-left: 2rem;
-    opacity: 2.6;
-     
-    font-size: 1rem;
+    padding-right: 1rem;
+    opacity: .6; 
+    font-size: 19px;
+    text-decoration: none;
     
 }
 .menu-bar{
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-left: 9rem;
+}
+a:after{
+    content: "";
+    position: absolute;
+    background-color: lightcoral;
+    height: 3px;
+    width: 0;
+    bottom: -10px;
+    left: 0;
+    transition: 0.3s;
+    
+}
+a:hover:after{
+    width: 40px;
+
 }
 .navbar a:hover,
 .navbar a.active{
-    color: burlywood;
+    color:lightgreen;
+     
+    
+}
+.hospital-pic img{
+    margin-top:1%;
+    width: 100%;
+    height:700px;
+   
+} 
+.sub-menu{
+    display: none;
+
+
+}
+ .menu-bar:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: aliceblue;
+    margin-top: 15px;
+    margin-left: -15px;
+
 }
  
