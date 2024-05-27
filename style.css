@@ -13,12 +13,12 @@
 #menu-raj{
     margin-left: 1%;
     margin-top: 1%;
-    color: white;
+    color:white;
    margin-bottom: 1%;
 
 }
 .font{
-    background-color: lightblue;  
+    background-color: rgb(30, 172, 30);  
 }
 .icon-number{
     display: inline;
@@ -28,18 +28,12 @@
 }
 .img1{ 
    display:inline; 
-   margin-left: 1%;
-   size: 2%;
-}
-.img2{
-    display: inline-flex;
-    color: white;
-    margin-left: 66%;
-    margin-top: 3%;    
-}
-.image{
-    padding-bottom: 60%;
+   margin-left: 2%;
    
+  
+}
+#photo{
+    margin-top: 1%;
 }
 #menu-icon{
      display: none;
@@ -53,49 +47,97 @@
     font-size: 19px;
     text-decoration: none;
     
-}
-.menu-bar{
-    padding-top: 2rem;
-    padding-left: 9rem;
-}
-a:after{
-    content: "";
-    position: absolute;
-    background-color: lightcoral;
-    height: 3px;
-    width: 0;
-    bottom: -10px;
-    left: 0;
-    transition: 0.3s;
     
 }
+ 
+    
+
+.menu-bar{
+    padding-top: 1rem;
+    padding-left: 9rem;
+}
+ 
+    
+ 
 a:hover:after{
     width: 40px;
 
 }
 .navbar a:hover,
 .navbar a.active{
-    color:lightgreen;
+    color:rgb(32, 32, 204);
      
     
 }
 .hospital-pic img{
     margin-top:1%;
-    width: 100%;
-    height:700px;
+    width: 106%;
+    height:490px;
    
 } 
-.sub-menu{
-    display: none;
-
-
-}
- .menu-bar:hover .sub-menu{
-    display: block;
+.hospital-name{
+    color: white;
     position: absolute;
-    background-color: aliceblue;
-    margin-top: 15px;
-    margin-left: -15px;
+    top: 59%;
+    left: 7%;
+    letter-spacing: 6px;    
+}
+span{
+    display: block;  
+}
+.youtube-red{
+    position: absolute;
+    top: 80%;
+    right: 1%;
+    background-color:red;
+    border-radius: 5%;
+    padding: 14px 14px ;
+    font-size: 100%;
+    
+  
+}
+.youtube {
+    text-decoration-line: none;
+    font-size: 23px;
+    font-weight: 800;
+    color: white;
+    padding: 26px 26px;
 
 }
+@keyframes slideinleft {
+    from{
+          transform: translate(-1000px);
+
+    }
+    to{
+        transform: translate(0);
+    }
+}
+.youtube-red{
+    animation-name: slideinleft;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function:ease-in ;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    
+ 
+}
+ 
+ .control{
+    position: absolute;
+    width: 100rem;
+    height: 50rem;
+    background-color: #191f36;
+ }
+ .control{
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+ }
+ 
  
