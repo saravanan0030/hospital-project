@@ -46,18 +46,11 @@
     opacity: .6; 
     font-size: 19px;
     text-decoration: none;
-    
-    
 }
- 
-    
-
 .menu-bar{
     padding-top: 1rem;
     padding-left: 9rem;
 }
- 
-    
  
 a:hover:after{
     width: 40px;
@@ -90,16 +83,17 @@ span{
     top: 80%;
     right: 1%;
     background-color:red;
-    border-radius: 5%;
+    border-radius: 1%;
     padding: 14px 14px ;
     font-size: 100%;
+    line-height: normal;
     
   
 }
 .youtube {
     text-decoration-line: none;
     font-size: 23px;
-    font-weight: 800;
+    letter-spacing: 1px;
     color: white;
     padding: 26px 26px;
 
@@ -139,5 +133,396 @@ span{
     flex-wrap: wrap;
     gap: 2rem;
  }
+  
+    
+ .maincontainer{
+    position: absolute;
+    width: 26rem;
+    height: 16rem;
+    margin: 20px;
+    top: 40rem;
+    left: 13px; 
+    
+
+ }
+ .thecard{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+ }
+ .thecard:hover{
+    transform: rotateY(180deg);
+ }
+ .frontcard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    background: rgb(64, 196, 248);
+    border-radius: 3px;
+    text-align: center;
+
+    
+ }
+ .frontcard h3{
+    position: relative;
+    color: white;
+    top: 3rem;
+    font-weight: 300;
+      
+     
+ }
+ .frontcard p{
+    position: relative;
+    top: 4rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+   
+     
+ }
+ button{
+    position: relative;
+    background-color: rgb(211, 98, 98);
+    top: 3rem;
+    padding: 6px 6px 6px 6px;
+    color: white;
+        
+ }
+ .backcard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: rgb(64, 196, 248);
+    overflow: hidden;
+    transform: rotateY(180deg);
+    border-radius: 3px;
+    text-align: center;
+    
+ }
+ .backcard h4{
+    position: relative;
+    color: white;
+    top: 2rem;
+
+ }
+ .backcard p{
+    position: relative;
+    top: 3rem;
+    letter-spacing: 1px;
+    color: white;
+    opacity: .7;
+
+ }
+.maincontainer2{
+    position: absolute;
+    width: 24rem;
+    height: 15rem;
+    margin: 20px;
+    top: 40rem;
+    left: 30rem; 
+    text-align: center;
+
+}
+.thecard2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+.thecard2:hover{
+    transform: rotateY(180deg);
+ }
+ .frontcard2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    background: rgb(100, 253, 100);
+    border-radius: 3px;
+ }
+ .frontcard2 h3{
+    position: relative;
+    color: white;
+    top: 3rem;
+    font-weight: 300;
+
+ }
+ .frontcard2 p{
+    position: relative;
+    top: 4rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+ }
+
+ .backcard2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: rgb(100, 253, 100);
+    overflow: hidden;
+    transform: rotateY(180deg);
+    border-radius: 3px;
+ }
+ .backcard2 h4{
+    position: relative;
+    color: white;
+    top: 2rem;
+   
+ }
+ .backcard2 p{
+    position: relative;
+    top: 2rem;
+    letter-spacing: 1px;
+    color: white;
+    opacity: .7;
+ }
+ .backcard2 button{
+    position: relative;
+    top: 2rem;
+ }
+ .maincontainer3{
+    position: absolute;
+    width: 25rem;
+    height: 13rem;
+    margin: 20px;
+    top: 40rem;
+    left: 57rem;
+    text-align: center;
+}
+.thecard3{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+
+}
+.thecard3:hover{
+    transform: rotateY(180deg);
+ }
+ .frontcard3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    background: lightslategray;
+    border-radius: 3px;
+    
+ }
+ .frontcard3 h3{
+    position: relative;
+    color: white;
+    top: 3rem;
+    font-weight: 300;
+
+ }
+ .frontcard3 p{
+    position: relative;
+    top: 3rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+
+ }
+ .backcard3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: lightslategray;
+    overflow: hidden;
+    transform: rotateY(180deg);
+    border-radius: 3px;
+ }
+ .backcard3 h4{
+    position: relative;
+    color: white;
+    top: 2rem;
+ }
+ .backcard3 p{
+    position: relative;
+    top: 2rem;
+    letter-spacing: 1px;
+    color: white;
+    opacity: .7;
+
+ }
+
+ .bigcards{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   
+   
+ }
+ .cards1{
+   position: relative;
+   background:rgb(238, 95, 43);
+   width: 25rem;
+   height: 30rem;
+   left: 33px;
+   top: 18rem;  
+   text-align: center;
+   
+ }
+ .cards1 h4{
+   position: relative;
+   top: 23px;
+   font-weight: 550;
+ }
+ .cards1 h4:hover{
+   color: rgb(24, 183, 247);
+   
+ }
+ .cards1 p{
+   position: relative;
+   top: 40px;
+   color: white;
+   font-size: 18px;
  
+ }
+ .cards2{
+   position: relative;
+   background: rgb(248, 114, 114);
+   width: 25rem;
+   height: 30rem;
+   left: 33px;
+   top: 18rem;
+   text-align: center;
+
+ }
+ .cards2 h4{
+   position: relative;
+   top: 23px;
+   font-weight: 550;
+
+ }
+ .cards2 p{
+   position: relative;
+   top: 45px;
+   color: white;
+   font-size: 18px;
  
+ }
+ .cards2 h4:hover{
+   color: rgb(24, 183, 247);
+   
+ }
+ .cards3 h4{
+   position: relative;
+   top: 23px;
+   font-weight: 550;
+
+ }
+ .cards3 p{
+   position: relative;
+   top: 45px;
+   color: white;
+   font-size: 18px;
+ 
+
+ }
+ .cards3{
+   position: relative;
+   background: rgb(23, 92, 119);
+   width: 25rem;
+   height: 30rem;
+   left: 33px;
+   top: 18rem;
+   text-align: center;
+ }
+ .cards3 h4:hover{
+   color: rgb(24, 183, 247);
+   
+ }
+ .cards4 h4:hover{
+   color: rgb(24, 183, 247);
+   
+ }
+ .cards5 h4:hover{
+   color: rgb(24, 183, 247);
+   
+ }
+ .cards6 h4:hover{
+   color: rgb(24, 183, 247);
+   
+ }
+ .cards4{
+   position: relative;
+   background: rgba(10, 131, 168, 0.575);
+   width: 25rem;
+   height: 30rem;
+   left: 33px;
+   top: 19rem;
+   text-align: center;
+ }
+ .cards4 h4{
+   position: relative;
+   top: 23px;
+   font-weight: 550;
+ }
+ .cards4 p{
+   position: relative;
+   top: 45px;
+   color: white;
+   font-size: 18px;
+
+ }
+ .cards5{
+   position: relative;
+   background: rgb(173, 199, 28);
+   width: 25rem;
+   height: 30rem;
+   left: 33px;
+   top: 19rem;
+   text-align: center;
+ }
+ .cards5 h4{
+   position: relative;
+   top: 23px;
+   font-weight: 550;
+ }
+ .cards5 p {
+   position: relative;
+   top: 45px;
+   color: white;
+   font-size: 18px;
+
+ }
+
+ 
+ .cards6{
+   position: relative;
+   background: rgb(105, 19, 72);
+   width: 25rem;
+   height: 30rem;
+   left: 33px;
+   top: 19rem;
+   text-align: center;
+ }
+ .cards6 h4{
+   position: relative;
+   top: 23px;
+   font-weight: 550;
+
+ }
+ .cards6 p{
+   position: relative;
+   top: 45px;
+   color: white;
+   font-size: 18px;
+ }
+ .background{
+   position: relative;
+   width: 100rem;
+   height: 50rem;
+   background-color: #575961;
+   top: 20rem;
+
+ }
