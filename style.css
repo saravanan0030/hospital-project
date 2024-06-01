@@ -540,9 +540,107 @@ span{
  }
  .background{
    position: relative;
-   width: 100rem;
+   width: 85rem;
    height: 50rem;
    background-color: #575961;
    top: 20rem;
-
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+  
  }
+ .sir-pic1{
+  
+   position: relative;
+   top: 60px;
+ }
+ .sir-pic2{
+  
+  position: relative;
+  top: 60px;
+}
+.sir-pic3{
+  
+  position: relative;
+  top: 60px;
+}
+.sir-pic1:hover{
+  transform: scale(1.06);
+}
+.sir-pic2:hover{
+  transform: scale(1.06);
+}
+.sir-pic3:hover{
+  transform: scale(1.06);
+}
+.basic-cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.pic-card{
+  position: relative;
+  background: whitesmoke;
+  width: 23rem;
+  height: 19rem;
+   bottom: 95px;
+   left: 20px;
+   text-align: center;
+}
+.pic-card2{
+  position: relative;
+  background: whitesmoke;
+  width: 23rem;
+  height: 17rem;
+  bottom: 95px;
+  left: 20px;
+  text-align: center;
+}
+.pic-card3{
+  position: relative;
+  background: whitesmoke;
+  width: 24rem;
+  height: 19rem;
+   bottom: 95px;
+   left: 20px;
+   text-align: center;
+}
+.pic-card h6{
+  padding: 25px;
+  
+
+
+}
+.pic-card p{
+  opacity: .7;
+
+}
+.pic-card2 h6{
+  padding: 25px;
+
+}
+.pic-card2 p{
+  opacity: .7;
+}
+.pic-card3 h6{
+  padding: 25px;
+
+}
+.pic-card3 p{
+  opacity: .7;
+}
+.card-butten a {
+  position: relative;
+  font-size: 19px;
+  padding: 15px 56px;
+  width: 6%;
+  height: 1%;
+  background: rgb(2, 178, 248);
+   left: 32rem;
+   bottom: 3rem;
+  
+}
+.hello-doctor{
+  display: inline;
+  text-decoration: none;
+  color: white;
+
+}
