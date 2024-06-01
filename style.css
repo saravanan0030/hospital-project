@@ -40,12 +40,21 @@
      
 }
 .navbar a{
+ 
+   
     position: relative;
     color: black;
     padding-right: 1rem;
     opacity: .6; 
     font-size: 19px;
     text-decoration: none;
+}
+.menu-bar{
+   position: sticky;
+   height: 70px;
+   top: 0px;
+   background-color:white;
+   z-index: 100;
 }
 .menu-bar{
     padding-top: 1rem;
@@ -183,14 +192,7 @@ span{
    
      
  }
- button{
-    position: relative;
-    background-color: rgb(211, 98, 98);
-    top: 3rem;
-    padding: 6px 6px 6px 6px;
-    color: white;
-        
- }
+ 
  .backcard{
     position: absolute;
     width: 100%;
@@ -376,9 +378,27 @@ span{
    top: 23px;
    font-weight: 550;
  }
- .cards1 h4:hover{
-   color: rgb(24, 183, 247);
+ 
    
+ 
+ .cards1:hover{
+   transform: scale(1.06);
+ }
+ .cards2:hover{
+   transform: scale(1.06);
+ }
+ .cards3:hover{
+   transform: scale(1.06);
+
+ }
+ .cards4:hover{
+   transform: scale(1.06);
+ }
+ .cards5:hover{
+   transform: scale(1.06);
+ }
+ .cards6:hover{
+   transform: scale(1.06);
  }
  .cards1 p{
    position: relative;
