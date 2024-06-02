@@ -742,3 +742,26 @@ color: black;
   text-decoration: none;
 
 }
+.ads{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+} 
+.ads1{
+  position:relative;
+  left: 20px;
+  
+  
+}
+.ads2{
+  position: relative;
+  left: 20px;
+  
+}
+.ads3{
+  position: relative;
+  left: 20px;
+  
+}
+
+ 
