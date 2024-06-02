@@ -647,3 +647,98 @@ span{
 .hello-doctor:hover{
   background: rgb(253, 181, 48);
 }
+.adds-pic{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+   
+ 
+  
+}
+.adds-pic1 a {
+  position: relative;
+  color: black;
+  font-size: 23px;
+  font-weight: 550;
+  bottom: 10rem;
+  left: 2rem;
+  text-decoration: none;
+   
+} 
+.adds-pic1 a:hover {
+  text-decoration: underline;
+  color: rgb(94, 184, 184);
+  transition: 2s;
+
+}
+.adds-pic3 a:hover {
+  text-decoration: underline;
+  color: rgb(94, 184, 184);
+  transition: 2s;
+
+}
+.adds-pic6 a:hover {
+  text-decoration: underline;
+  color: rgb(94, 184, 184);
+  transition: 2s;
+
+}
+.adds-pic8 a:hover {
+  text-decoration: underline;
+  color: rgb(94, 184, 184);
+  transition: 2s;
+
+}
+.adds-pic2{
+  position: relative;
+ 
+  
+  
+}
+.adds-pic7{
+
+  position: relative;
+ 
+ 
+} 
+.adds-pic3 a{
+
+  position: relative;
+  color: black;
+  font-size: 23px;
+  font-weight: 550;
+  bottom: 9rem;
+  left: 2rem;
+  text-decoration: none;
+ 
+  
+} 
+.adds-pic4{
+position: relative;
+ 
+}
+.adds-pic5{
+position: relative;
+left: 10px;
+ 
+ 
+}
+.adds-pic6 a{  
+position: relative;
+color: black;
+  font-size: 23px;
+  font-weight: 550;
+  bottom: 9rem;
+  left: 2rem;
+  text-decoration: none;
+ 
+}
+.adds-pic8 a{
+  position: relative;
+  color: black;
+  font-size: 23px;
+  font-weight: 550;
+  bottom: 10rem;
+  left: 2rem;
+  text-decoration: none;
+
+}
