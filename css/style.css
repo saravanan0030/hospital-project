@@ -172,7 +172,7 @@ span{
     backface-visibility: hidden;
     overflow: hidden;
     background: rgb(64, 196, 248);
-    border-radius: 3px;
+    border-radius: 30rem;
     text-align: center;
 
     
@@ -202,14 +202,16 @@ span{
     background: rgb(64, 196, 248);
     overflow: hidden;
     transform: rotateY(180deg);
-    border-radius: 3px;
+    border-radius: 30rem;
     text-align: center;
+    margin: 10px;
     
  }
  .backcard h4{
     position: relative;
     color: white;
     top: 2rem;
+    margin: 10px;
 
  }
  .backcard p{
@@ -247,7 +249,7 @@ span{
     backface-visibility: hidden;
     overflow: hidden;
     background: rgb(100, 253, 100);
-    border-radius: 3px;
+    border-radius: 30rem;
  }
  .frontcard2 h3{
     position: relative;
@@ -271,7 +273,7 @@ span{
     background: rgb(100, 253, 100);
     overflow: hidden;
     transform: rotateY(180deg);
-    border-radius: 3px;
+    border-radius: 30rem;
  }
  .backcard2 h4{
     position: relative;
@@ -317,7 +319,7 @@ span{
     backface-visibility: hidden;
     overflow: hidden;
     background: lightslategray;
-    border-radius: 3px;
+    border-radius: 30rem;
     
  }
  .frontcard3 h3{
@@ -325,6 +327,7 @@ span{
     color: white;
     top: 3rem;
     font-weight: 300;
+     
 
  }
  .frontcard3 p{
@@ -332,6 +335,7 @@ span{
     top: 3rem;
     letter-spacing: 1px;
     font-weight: 500;
+    padding:1px;
 
  }
  .backcard3{
@@ -342,16 +346,17 @@ span{
     background: lightslategray;
     overflow: hidden;
     transform: rotateY(180deg);
-    border-radius: 3px;
+    border-radius: 30rem;
  }
  .backcard3 h4{
     position: relative;
     color: white;
     top: 2rem;
+    margin: 20px;
  }
  .backcard3 p{
     position: relative;
-    top: 2rem;
+    top: 10px;
     letter-spacing: 1px;
     color: white;
     opacity: .7;
@@ -914,7 +919,7 @@ color: rgb(117, 205, 240);
   position: relative;
   top: 50px;
   opacity: .8; 
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
   
  }
@@ -922,14 +927,14 @@ color: rgb(117, 205, 240);
   position: relative;
   top: 50px;
   opacity: .8; 
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
  }
  .para3 p{
   position: relative;
   top: 50px;
   opacity: .8; 
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
  }
  .para1 p:hover{
