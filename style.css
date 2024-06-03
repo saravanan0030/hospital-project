@@ -783,9 +783,11 @@ color: black;
 .card__img{
   width: 328px;
   border-radius: 1.5rem;
+  
 }
 .card__data{
-  width: 280px;
+  width: 23rem;
+  height: 16rem;
   background-color:  white;
   padding: 1.5rem 2rem;
   box-shadow: 0 8px 24px hsl(0,0%,0%,.15);
@@ -797,22 +799,29 @@ color: black;
   margin-inline: auto;
   opacity: 0;
   transition: opacity 1s 1s;
-
-
+  z-index: 10;
 }
+.card__button{
+position: relative;
+font-size: 20px;
+text-decoration: none;
+color: rgb(117, 205, 240);
+}
+.card__button:hover{
+  text-decoration: underline;
+}
+
 .card__article:hover .card__data{
   animation: show-data 1s forwards;
-  opacity: 1;
+  opacity: 2;
   transition: opacity .3s;
-  
-
 }
 .card__article:hover{
-  animation: remove-overflow 2s forwards;
+  animation: remove-overflow 1s forwards;
 
 }
 .card__data:not(:hover){
-  animation: show-overflow 2s forwards;
+  animation: show-overflow 1s forwards;
 }
 .card__data:not(:hover){
   animation: remove-data 1s forwards;
@@ -858,7 +867,48 @@ color: black;
     overflow: hidden;
   }
 }
+.background-card{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+   row-gap: 3.5rem;
+   gap: 30PX;
 
-@media screen {
+ 
   
 }
+ .para1{
+  position: relative;
+  background-color: whitesmoke;
+  width: 25rem;
+  height: 15rem;
+  left: 45px;
+  bottom: 82px;
+  z-index: 0;
+  overflow: hidden;
+ }
+ .para2{
+  position: relative;
+  background-color: whitesmoke;
+  width: 25rem;
+  height: 15rem;
+   left: 1rem;
+  bottom: 82px;
+  z-index: 0;
+ overflow: hidden;
+
+ }
+ .para3{
+  position: relative;
+  background-color: whitesmoke;
+  width: 25rem;
+  height: 15rem;
+   right: 1rem;
+  bottom: 82px;
+  z-index: 0;
+  overflow: hidden;
+ }
+ .card__data:hover.para1{
+  overflow: initial;
+ }
+
+ 
