@@ -946,6 +946,10 @@ color: rgb(117, 205, 240);
 .para3 p:hover{
   color:rgb(243, 74, 12);
 }
+.finally{
+  position: relative;
+  background-color: #575961;
+}
  
  
 
