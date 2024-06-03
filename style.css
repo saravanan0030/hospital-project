@@ -880,35 +880,67 @@ color: rgb(117, 205, 240);
   position: relative;
   background-color: whitesmoke;
   width: 25rem;
-  height: 15rem;
+  height: 10rem;
   left: 45px;
   bottom: 82px;
   z-index: 0;
-  overflow: hidden;
+   
+  padding: 16px;
  }
  .para2{
   position: relative;
   background-color: whitesmoke;
   width: 25rem;
-  height: 15rem;
+  height: 10rem;
    left: 1rem;
   bottom: 82px;
   z-index: 0;
- overflow: hidden;
-
+  
+ padding: 16px;
  }
  .para3{
   position: relative;
   background-color: whitesmoke;
   width: 25rem;
-  height: 15rem;
+  height: 10rem;
    right: 1rem;
   bottom: 82px;
   z-index: 0;
-  overflow: hidden;
+   
+  padding: 16px;
  }
- .card__data:hover.para1{
-  overflow: initial;
+ .para1 p{
+  position: relative;
+  top: 50px;
+  opacity: .8; 
+  font-size: 18px;
+  letter-spacing: 1px;
+  
  }
+ .para2 p{
+  position: relative;
+  top: 50px;
+  opacity: .8; 
+  font-size: 18px;
+  letter-spacing: 1px;
+ }
+ .para3 p{
+  position: relative;
+  top: 50px;
+  opacity: .8; 
+  font-size: 18px;
+  letter-spacing: 1px;
+ }
+ .para1 p:hover{
+   color:rgb(243, 74, 12);
+ }
+ .para2 p:hover{
+  color:rgb(243, 74, 12);
+}
+.para3 p:hover{
+  color:rgb(243, 74, 12);
+}
+ 
+ 
 
  
