@@ -986,10 +986,10 @@ color: rgb(117, 205, 240);
   padding: 20px;
 }
 iframe{
-  position: relative;
-  right: 2%;
-  bottom: 2px;
-  bottom: 16rem;
+  position: absolute;
+   
+   
+  bottom: 3rem;
 }
 .youtube-para{
   position: relative;
@@ -1001,9 +1001,25 @@ iframe{
 .footer{
   position: relative;
   background-color: #414246;
+  width: 84rem;
+  height: 2rem;
+  top: 23rem;
    
 }
-
+.youtube{
+  width: 360px;
+  height: 260px;
+}
+.footer p{
+  position: absolute;
+  color: white;
+  font-size: small;
+  opacity: .6;
+  left: 3px;
+  
+}
+ 
+ 
 
 
  
