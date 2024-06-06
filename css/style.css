@@ -41,8 +41,6 @@
      
 }
 .navbar a{
- 
-   
     position: relative;
     color: black;
     padding-right: 1rem;
@@ -59,7 +57,7 @@
 }
 .menu-bar{
     padding-top: 1rem;
-    padding-left: 9rem;
+    padding-left: 3rem;
 }
  
 a:hover:after{
@@ -1004,7 +1002,6 @@ iframe{
   width: 84rem;
   height: 2rem;
   top: 23rem;
-   
 }
 .youtube{
   width: 360px;
@@ -1015,8 +1012,7 @@ iframe{
   color: white;
   font-size: small;
   opacity: .6;
-  left: 3px;
-  
+  left: 3px; 
 }
  
  
