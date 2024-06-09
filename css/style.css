@@ -11,6 +11,9 @@
   font-family: "Nunito", "sans-serif";
    
 }
+.test {
+  color: red;
+}
 #menu-raj{
     margin-left: 1%;
     margin-top: 1%;
@@ -59,6 +62,9 @@
 .menu-bar{
      padding: 50px;
      padding-right: 10px;
+    padding-top: 1rem;
+    padding-left: 3rem;
+
 }
  
 a:hover:after{
@@ -983,8 +989,9 @@ color: rgb(117, 205, 240);
   background-color: #414246;
   width:  100%;
   height: 2rem;
-  
-  
+
+  top: 23rem;
+ 
 }
 .youtube{
   width: 360px;
