@@ -154,10 +154,7 @@ span{
     
  
 }
- <!--
- 
-  
-    
+   
  .maincontainer{
     position: absolute;
     width: 25rem;
@@ -186,11 +183,6 @@ span{
     backface-visibility: hidden;
     overflow: hidden;
     background: rgb(64, 196, 248);
-<<<<<<< HEAD
-     
-=======
- 
->>>>>>> 5c0c78c49d765d1f53797d9751c3d2299cd2cf77
     text-align: center;
 
     
@@ -219,12 +211,11 @@ span{
     backface-visibility: hidden;
     background: rgb(64, 196, 248);
     overflow: hidden;
-    transform: rotateY(180deg);
-<<<<<<< HEAD
+    transform: rotateY(180deg); 
      
-=======
+ 
    
->>>>>>> 5c0c78c49d765d1f53797d9751c3d2299cd2cf77
+ 
     text-align: center;
     
     
@@ -271,11 +262,10 @@ span{
     backface-visibility: hidden;
     overflow: hidden;
     background: rgb(100, 253, 100);
-<<<<<<< HEAD
-         
-=======
  
->>>>>>> 5c0c78c49d765d1f53797d9751c3d2299cd2cf77
+         
+ 
+ 
  }
  .frontcard2 h3{
     position: relative;
@@ -299,11 +289,10 @@ span{
     background: rgb(100, 253, 100);
     overflow: hidden;
     transform: rotateY(180deg);
-<<<<<<< HEAD
-     
-=======
+   
  
->>>>>>> 5c0c78c49d765d1f53797d9751c3d2299cd2cf77
+ 
+ 
  }
  .backcard2 h4{
     position: relative;
@@ -324,11 +313,11 @@ span{
  }
  .maincontainer3{
     position: absolute;
-<<<<<<< HEAD
+ 
     width: 24rem;
-=======
+ 
     width: 28%;
->>>>>>> 85aab37eaa2280416db3a835ed0edac9dd83ca3d
+ 
     height: 13rem;
     margin: 20px;
     top: 40rem;
@@ -353,11 +342,11 @@ span{
     backface-visibility: hidden;
     overflow: hidden;
     background: lightslategray;
-<<<<<<< HEAD
-  
-=======
  
->>>>>>> 5c0c78c49d765d1f53797d9751c3d2299cd2cf77
+  
+ 
+ 
+ 
     
  }
  .frontcard3 h3{
@@ -384,11 +373,11 @@ span{
     background: lightslategray;
     overflow: hidden;
     transform: rotateY(180deg);
-<<<<<<< HEAD
-    
-=======
  
->>>>>>> 5c0c78c49d765d1f53797d9751c3d2299cd2cf77
+    
+ 
+ 
+ 
  }
  .backcard3 h4{
     position: relative;
@@ -594,11 +583,11 @@ span{
  }
  .background{
    position: relative;
-<<<<<<< HEAD
+ 
    width: 100%;
-=======
+ 
     max-width: 100%;
->>>>>>> 5c0c78c49d765d1f53797d9751c3d2299cd2cf77
+ 
    height: 50rem;
    background-color: #575961;
    top: 20rem;
@@ -700,11 +689,11 @@ span{
 .adds-pic{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr ;
-<<<<<<< HEAD
+ 
   
-=======
+ 
   overflow: hidden;
->>>>>>> 5c0c78c49d765d1f53797d9751c3d2299cd2cf77
+ 
   
 }
 .adds-pic1 a {
