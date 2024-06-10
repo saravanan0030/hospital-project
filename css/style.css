@@ -89,14 +89,36 @@ a:hover:after{
     top: 59%;
     left: 7%;
     letter-spacing: 6px;    
+    
 }
+ 
+@keyframes hospitaln{
+  from{
+    transform: translatey(-1000px);
+  }
+  to{
+    transform: translatey(0);
+  }
+  
+}
+ .hospital-name{
+  animation-name:  hospitaln ;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-direction: smooth;
+  animation-fill-mode: none;
+  
+
+}
+
+
 span{
     display: block;  
 }
 .youtube-red{
     position: absolute;
     top: 80%;
-    right: 1%;
+    left: 60rem;
     background-color:red;
     border-radius: 1%;
     padding: 14px 14px ;
@@ -111,6 +133,7 @@ span{
     letter-spacing: 1px;
     color: white;
     padding: 26px 26px;
+    
 
 }
 @keyframes slideinleft {
@@ -123,12 +146,10 @@ span{
     }
 }
 .youtube-red{
-    animation-name: slideinleft;
+    animation-name: slideinleft ;
     animation-duration: 1s;
-    animation-delay: 1s;
-    animation-timing-function:ease-in ;
     animation-iteration-count: 1;
-    animation-direction: normal;
+    animation-direction: smooth;
     animation-fill-mode: none;
     
  
@@ -152,6 +173,7 @@ span{
     height: 100%;
     transform-style: preserve-3d;
     transition: all 0.5s ease;
+    
  }
  .thecard:hover{
     transform: rotateY(180deg);
@@ -285,7 +307,7 @@ span{
  }
  .maincontainer3{
     position: absolute;
-    width: 25rem;
+    width: 24rem;
     height: 13rem;
     margin: 20px;
     top: 40rem;
@@ -305,7 +327,7 @@ span{
  }
  .frontcard3{
     position: absolute;
-    width: 25rem;
+    width: 24rem;
     height: 100%;
     backface-visibility: hidden;
     overflow: hidden;
@@ -368,8 +390,10 @@ span{
    left: 20px;
    top: 18rem;  
    text-align: center;
+    
    
  }
+  
  .cards1 h4{
    position: relative;
    top: 23px;
@@ -564,15 +588,7 @@ span{
   position: relative;
   top: 60px;
 }
-.sir-pic1:hover{
-  transform: scale(1.06);
-}
-.sir-pic2:hover{
-  transform: scale(1.06);
-}
-.sir-pic3:hover{
-  transform: scale(1.06);
-}
+ 
 .basic-cards{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -981,8 +997,6 @@ color: rgb(117, 205, 240);
   bottom: 10rem;
   float: right;
  
-  
-   
 }
 .footer1{
   position: relative;
@@ -990,7 +1004,6 @@ color: rgb(117, 205, 240);
   width:  100%;
   height: 2rem;
 
- 
 }
 .youtube{
   width: 360px;
@@ -1002,7 +1015,25 @@ color: rgb(117, 205, 240);
   font-size: small;
   opacity: .6;
   left: 3px; 
+  
 }
+ 
+
+
+
+ 
+
+
+  
+  
+
+
+ 
+
+ 
+
+
+
  
  
 
