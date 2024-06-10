@@ -14,7 +14,8 @@
     text-decoration: none;
 }
 .menu-bar{
-   position: sticky;
+   position: sticky; 
+   font-family: sans-serif;
    height: 70px;
    top: 0px;
    background-color:white;
@@ -22,7 +23,9 @@
 }
 .menu-bar{
     padding-top: 1rem;
+
     padding-left: 2rem;
+
 }
  
 a:hover:after{
@@ -35,10 +38,113 @@ a:hover:after{
      
     
 }
-
 .Our-Facilities{
-    position: relative;
-    background-color: rgb(172, 166, 166);
-    width: 100%;
-    height: 6rem;
+    font-family:sans-serif;
+    text-align: center;
+    font-size: 80%;
+    font-weight:normal;
+    
 }
+
+.ambulance{
+    width: 600%;
+    height: fit-content;
+    position: relative;
+    vertical-align: middle;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: lighter;
+    
+
+}
+
+.X-ray{
+    width: 400rex;
+    height: 100%;
+    position: center;
+    vertical-align: middle;
+    box-sizing: border-box; 
+    padding-left: 50rem;
+    font-family: sans-serif;
+} 
+
+.pharmacy{
+    font-family:sans-serif;
+    
+
+}
+
+.lab{
+    font-family: sans-serif;
+}
+
+.vaccination{
+    font-family: sans-serif;
+}
+.background1{
+    position: absolute;
+    width: 84rem;
+    height: 23rem;
+    background: #cacbd1;
+  }
+  .background1 h6{
+    position: relative;
+    left: 10rem;
+    top: 3rem;
+    font-weight: 550;
+  }
+  .background1 p{
+    position: relative;
+     left: 2rem;
+     top: 6rem;
+   
+  }
+  .background2{
+    position: absolute;
+    right: 2rem;
+    
+  } 
+  .background2 h6{
+    position: absolute;
+    top: 3rem;
+    left: 10rem;
+    font-weight: 550;
+  }
+  .background2 p{
+    position: relative;
+    left: 3rem;
+    top: 6rem;
+    padding: 20px;
+  }
+  iframe{
+    position: absolute;
+     
+     
+    bottom: 3rem;
+  }
+  .youtube-para{
+    position: relative;
+    right: 35%;
+    left: 31rem;
+    top: 20rem;
+    font-weight: 550;
+  }
+  .footer{
+    position: relative;
+    background-color: #414246;
+    width: 84rem;
+    height: 2rem;
+    top: 23rem;
+  }
+  .youtube{
+    width: 360px;
+    height: 260px;
+  }
+  .footer p{
+    position: absolute;
+    color: white;
+    font-size: small;
+    opacity: .6;
+    left: 3px; 
+  }
+  
