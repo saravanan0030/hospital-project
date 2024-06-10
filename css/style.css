@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css");
+
 *{
   margin: 0;
   padding: 0;
@@ -9,10 +9,7 @@
   outline: none;
   scroll-behavior: smooth;
   font-family: "Nunito", "sans-serif";
-   
-}
-.test {
-  color: red;
+/*  overflow: hidden;*/
 }
 #menu-raj{
     margin-left: 1%;
@@ -44,6 +41,8 @@
      
 }
 .navbar a{
+ 
+   
     position: relative;
     color: black;
     padding-right: 1rem;
@@ -54,17 +53,13 @@
 .menu-bar{
    position: sticky;
    height: 70px;
-
    top: 0px;
    background-color:white;
    z-index: 100;
 }
 .menu-bar{
-     padding: 50px;
-     padding-right: 10px;
     padding-top: 1rem;
-    padding-left: 3rem;
-
+    padding-left: 9rem;
 }
  
 a:hover:after{
@@ -79,7 +74,7 @@ a:hover:after{
 }
 .hospital-pic img{
     margin-top:1%;
-    width: 100%;
+    width: 106%;
     height:490px;
    
 } 
@@ -89,36 +84,14 @@ a:hover:after{
     top: 59%;
     left: 7%;
     letter-spacing: 6px;    
-    
 }
- 
-@keyframes hospitaln{
-  from{
-    transform: translatey(-1000px);
-  }
-  to{
-    transform: translatey(0);
-  }
-  
-}
- .hospital-name{
-  animation-name:  hospitaln ;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-  animation-direction: smooth;
-  animation-fill-mode: none;
-  
-
-}
-
-
 span{
     display: block;  
 }
 .youtube-red{
     position: absolute;
     top: 80%;
-    left: 60rem;
+    right: 1%;
     background-color:red;
     border-radius: 1%;
     padding: 14px 14px ;
@@ -133,7 +106,6 @@ span{
     letter-spacing: 1px;
     color: white;
     padding: 26px 26px;
-    
 
 }
 @keyframes slideinleft {
@@ -146,18 +118,36 @@ span{
     }
 }
 .youtube-red{
-    animation-name: slideinleft ;
+    animation-name: slideinleft;
     animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function:ease-in ;
     animation-iteration-count: 1;
-    animation-direction: smooth;
+    animation-direction: normal;
     animation-fill-mode: none;
     
  
 }
-   
+ 
+ .control{
+    position: absolute;
+    width: 100rem;
+    height: 50rem;
+    background-color: #191f36;
+ }
+ .control{
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+ }
+  
+    
  .maincontainer{
     position: absolute;
-    width: 25rem;
+    width: 26rem;
     height: 16rem;
     margin: 20px;
     top: 40rem;
@@ -171,10 +161,9 @@ span{
     height: 100%;
     transform-style: preserve-3d;
     transition: all 0.5s ease;
-    
  }
  .thecard:hover{
-    transform:rotateY(180deg);
+    transform: rotateY(180deg);
  }
  .frontcard{
     position: absolute;
@@ -183,6 +172,7 @@ span{
     backface-visibility: hidden;
     overflow: hidden;
     background: rgb(64, 196, 248);
+    border-radius: 30rem;
     text-align: center;
 
     
@@ -211,13 +201,10 @@ span{
     backface-visibility: hidden;
     background: rgb(64, 196, 248);
     overflow: hidden;
-    transform: rotateY(180deg); 
-     
- 
-   
- 
+    transform: rotateY(180deg);
+    border-radius: 30rem;
     text-align: center;
-    
+    margin: 10px;
     
  }
  .backcard h4{
@@ -262,10 +249,7 @@ span{
     backface-visibility: hidden;
     overflow: hidden;
     background: rgb(100, 253, 100);
- 
-         
- 
- 
+    border-radius: 30rem;
  }
  .frontcard2 h3{
     position: relative;
@@ -289,10 +273,7 @@ span{
     background: rgb(100, 253, 100);
     overflow: hidden;
     transform: rotateY(180deg);
-   
- 
- 
- 
+    border-radius: 30rem;
  }
  .backcard2 h4{
     position: relative;
@@ -313,11 +294,7 @@ span{
  }
  .maincontainer3{
     position: absolute;
- 
-    width: 24rem;
- 
-    width: 28%;
- 
+    width: 25rem;
     height: 13rem;
     margin: 20px;
     top: 40rem;
@@ -337,16 +314,12 @@ span{
  }
  .frontcard3{
     position: absolute;
-    width: 24rem;
+    width: 100%;
     height: 100%;
     backface-visibility: hidden;
     overflow: hidden;
     background: lightslategray;
- 
-  
- 
- 
- 
+    border-radius: 30rem;
     
  }
  .frontcard3 h3{
@@ -373,11 +346,7 @@ span{
     background: lightslategray;
     overflow: hidden;
     transform: rotateY(180deg);
- 
-    
- 
- 
- 
+    border-radius: 30rem;
  }
  .backcard3 h4{
     position: relative;
@@ -403,15 +372,13 @@ span{
  .cards1{
    position: relative;
    background:rgb(238, 95, 43);
-    max-width: 25rem;
+   width: 25rem;
    height: 30rem;
-   left: 20px;
+   left: 33px;
    top: 18rem;  
    text-align: center;
-    
    
  }
-  
  .cards1 h4{
    position: relative;
    top: 23px;
@@ -449,9 +416,9 @@ span{
  .cards2{
    position: relative;
    background: rgb(248, 114, 114);
-    max-width: 25rem;
+   width: 25rem;
    height: 30rem;
-   left: 20px;
+   left: 33px;
    top: 18rem;
    text-align: center;
 
@@ -490,9 +457,9 @@ span{
  .cards3{
    position: relative;
    background: rgb(23, 92, 119);
-    max-width: 25rem;
+   width: 25rem;
    height: 30rem;
-   left: 20px;
+   left: 33px;
    top: 18rem;
    text-align: center;
  }
@@ -508,10 +475,6 @@ span{
    color: rgb(24, 183, 247);
    
  }
- .cards1 h4:hover{
-  color: rgb(24, 183, 247);
-  
-}
  .cards6 h4:hover{
    color: rgb(24, 183, 247);
    
@@ -521,7 +484,7 @@ span{
    background: rgba(10, 131, 168, 0.575);
    width: 25rem;
    height: 30rem;
-   left: 20px;
+   left: 33px;
    top: 19rem;
    text-align: center;
  }
@@ -540,9 +503,9 @@ span{
  .cards5{
    position: relative;
    background: rgb(173, 199, 28);
-  max-width: 25rem;
+   width: 25rem;
    height: 30rem;
-   left: 20px;
+   left: 33px;
    top: 19rem;
    text-align: center;
  }
@@ -563,9 +526,9 @@ span{
  .cards6{
    position: relative;
    background: rgb(105, 19, 72);
-   max-width: 25rem;
+   width: 25rem;
    height: 30rem;
-   left: 20px;
+   left: 33px;
    top: 19rem;
    text-align: center;
  }
@@ -583,11 +546,7 @@ span{
  }
  .background{
    position: relative;
- 
-   width: 100%;
- 
-    max-width: 100%;
- 
+   width: 85rem;
    height: 50rem;
    background-color: #575961;
    top: 20rem;
@@ -610,7 +569,15 @@ span{
   position: relative;
   top: 60px;
 }
- 
+.sir-pic1:hover{
+  transform: scale(1.06);
+}
+.sir-pic2:hover{
+  transform: scale(1.06);
+}
+.sir-pic3:hover{
+  transform: scale(1.06);
+}
 .basic-cards{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -689,10 +656,7 @@ span{
 .adds-pic{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr ;
- 
-  
- 
-  overflow: hidden;
+   
  
   
 }
@@ -730,8 +694,18 @@ span{
   transition: 2s;
 
 }
+.adds-pic2{
+  position: relative;
+ 
   
+  
+}
+.adds-pic7{
 
+  position: relative;
+ 
+ 
+} 
 .adds-pic3 a{
 
   position: relative;
@@ -829,7 +803,7 @@ color: black;
   left: 0;
   right: 0;
   margin-inline: auto;
-  opacity: -1;
+  opacity: 0;
   transition: opacity 1s 1s;
   z-index: 10;
 }
@@ -916,6 +890,7 @@ color: rgb(117, 205, 240);
   left: 45px;
   bottom: 82px;
   z-index: 0;
+   
   padding: 16px;
  }
  .para2{
@@ -971,86 +946,7 @@ color: rgb(117, 205, 240);
 .para3 p:hover{
   color:rgb(243, 74, 12);
 }
-.background1{
-  position:  relative;
-  width: 100%;
-  height: 23rem;
-  background: #cacbd1;
-  overflow: hidden;
-  
-}
-.background1 h6{
-   position: relative;
-   left: 10rem;
-    top: 20px;
-   font-weight: 550;
- 
-}
-.background1 p{
-    margin-left: 2rem;
-    margin-top: 3rem;
- 
-}
-.background2{
-  position: relative;
-  float:   left;
-   left: 28rem;
-  bottom: 11rem;
-  
- 
-} 
-.background2 h6{
-  position: relative;
-  top: 10px;
-  font-weight: 550;
-
-}
- 
-
-.youtube-para{
-  position: relative;
-  bottom: 10rem;
-  float: right;
- 
-}
-.footer1{
-  position: relative;
-  background-color: #414246;
-  width:  100%;
-  height: 2rem;
-
-}
-.youtube{
-  width: 360px;
-  height: 260px;
-}
-.footer1 p{
-  position: absolute;
-  color: white;
-  font-size: small;
-  opacity: .6;
-  left: 3px; 
-  
-}
- 
-
-
-
- 
-
-
-  
-  
-
-
- 
-
- 
-
-
-
  
  
-
 
  
