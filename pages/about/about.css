@@ -7,7 +7,7 @@
     outline: none;
     scroll-behavior: smooth;
     font-family: "Nunito", "sans-serif";
-  /* overflow: hidden;*/
+   
   }
   .ab_test{
     color: blue;
@@ -16,8 +16,7 @@
       margin-left: 1%;
       margin-top: 1%;
       color:white;
-     margin-bottom: 1%;
-     
+     margin-bottom: 1%;  
   }
   .font{
       background-color: rgb(30, 172, 30);  
@@ -31,8 +30,6 @@
   .img1{ 
      display:inline; 
      margin-left: 2%;
-     
-    
   }
   #photo{
       margin-top: 1%;
@@ -57,8 +54,9 @@
      z-index: 100;
   }
   .menu-bar{
-      padding-top: 1rem;
-      padding-left: 3rem;
+    padding-top: 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
    
   a:hover:after{
@@ -96,8 +94,6 @@
       padding: 14px 14px ;
       font-size: 100%;
       line-height: normal;
-      
-    
   }
   .youtube {
       text-decoration-line: none;
@@ -124,99 +120,94 @@
       animation-iteration-count: 1;
       animation-direction: normal;
       animation-fill-mode: none;
-      
-   
   }
-   
-   .control{
-      position: absolute;
-      width: 100rem;
-      height: 50rem;
-      background-color: #191f36;
-   }
-   .control{
-  
-      display: flex;
-      text-align: center;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 2rem;
-   }
    .our-doctor h4{
-       float: right;
+    margin-top: 10rem;
    }
-   .our-doctor a{
-    float: right;
-   }
+   
+   
    .about h6{
       position: relative;
       left: 50%;
       font-size: 15px;
-       font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
 .about h4{
     position: relative;
-    left: 6rem;
+    left: 8rem;
+    top: 2rem;
 
 }
 .about p{
     position: relative;
     background: whitesmoke;
+    
     width: 20rem;
     height: 6rem;
     left: 3rem;
     padding: 10px;
     gap: 20px;
-    top: 2rem;
+    top: 4rem;
     font-size: 15px;
 }
-.about2 h5{
+.about2 h4{
     position: relative;
     float: right;
-    bottom: 29rem;
+    bottom: 28rem;
     right: 42rem;
-     
 
+}
+.about3 h4{
+    position: relative;
+    float: right;
+    bottom: 13rem;
+    right: 34rem;
 
+}
+.about3 p{
+    position: relative;
+    background: whitesmoke;
+    overflow: hidden;
+    float: right;
+    width: 20rem;
+    height: 6rem;
+    padding: 10px;
+    font-size: 15px;
+    right: 20rem;
+    bottom: 10rem;
+    margin: 10px;
 }
 .about2  p{
     position: absolute;
+    background: whitesmoke;
+    width: 20rem;
+    height: 6rem;
     float: right;
     left: 30rem;
-    top: 21rem;
+    top: 28rem;
     padding: 13px;
 }
 .our-doctor h4{
-   
-    position: absolute;
-    bottom: 20rem;
+    position:  relative;
+    bottom: 33rem;
     left: 65rem;
 
 }
-.our-doctor a{
-     
+ul {
     position: relative;
-    bottom: 20rem;
-    left: 65rem;
-    padding-top: 1rem;
-    padding-left: 3rem;  
+    text-decoration: none;
+    bottom: 33rem;
+    display: flex;
+    font-size: 15px;
+    left: 63rem;
 }
-
-
-
-
-
+ 
 .rio-services{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    gap: 35px;
+ 
      
 
 }
-.rio-services h4{
-    position: relative;
-    left: 40rem;
-} 
+ 
 .cards1{
     position: relative;
     background: blue;
@@ -296,5 +287,18 @@
     height: 19rem;
     top: 10rem;
 
+}
+.about-background{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 6rem;
+}
+.about-background h6{
+    position: relative;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    top: 20px;
 }
  
