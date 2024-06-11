@@ -9,7 +9,7 @@
   outline: none;
   scroll-behavior: smooth;
   font-family: "Nunito", "sans-serif";
-/*  overflow: hidden;*/
+ 
 }
 #menu-raj{
     margin-left: 1%;
@@ -41,11 +41,8 @@
      
 }
 .navbar a{
- 
-   
     position: relative;
     color: black;
-    padding-right: 1rem;
     opacity: .6; 
     font-size: 19px;
     text-decoration: none;
@@ -54,12 +51,15 @@
    position: sticky;
    height: 70px;
    top: 0px;
+   
    background-color:white;
    z-index: 100;
 }
+
 .menu-bar{
     padding-top: 1rem;
-    padding-left: 9rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
  
 a:hover:after{
@@ -74,7 +74,7 @@ a:hover:after{
 }
 .hospital-pic img{
     margin-top:1%;
-    width: 106%;
+    width: 100%;
     height:490px;
    
 } 
@@ -120,13 +120,6 @@ span{
 .youtube-red{
     animation-name: slideinleft;
     animation-duration: 1s;
-    animation-delay: 1s;
-    animation-timing-function:ease-in ;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    
- 
 }
  
  .control{
@@ -172,7 +165,6 @@ span{
     backface-visibility: hidden;
     overflow: hidden;
     background: rgb(64, 196, 248);
-    border-radius: 30rem;
     text-align: center;
 
     
@@ -202,7 +194,6 @@ span{
     background: rgb(64, 196, 248);
     overflow: hidden;
     transform: rotateY(180deg);
-    border-radius: 30rem;
     text-align: center;
     margin: 10px;
     
@@ -249,7 +240,7 @@ span{
     backface-visibility: hidden;
     overflow: hidden;
     background: rgb(100, 253, 100);
-    border-radius: 30rem;
+    
  }
  .frontcard2 h3{
     position: relative;
@@ -273,7 +264,7 @@ span{
     background: rgb(100, 253, 100);
     overflow: hidden;
     transform: rotateY(180deg);
-    border-radius: 30rem;
+    
  }
  .backcard2 h4{
     position: relative;
@@ -294,7 +285,7 @@ span{
  }
  .maincontainer3{
     position: absolute;
-    width: 25rem;
+    width: 24rem;
     height: 13rem;
     margin: 20px;
     top: 40rem;
@@ -319,7 +310,7 @@ span{
     backface-visibility: hidden;
     overflow: hidden;
     background: lightslategray;
-    border-radius: 30rem;
+    
     
  }
  .frontcard3 h3{
@@ -346,7 +337,7 @@ span{
     background: lightslategray;
     overflow: hidden;
     transform: rotateY(180deg);
-    border-radius: 30rem;
+    
  }
  .backcard3 h4{
     position: relative;
@@ -374,7 +365,7 @@ span{
    background:rgb(238, 95, 43);
    width: 25rem;
    height: 30rem;
-   left: 33px;
+   left: 25px;
    top: 18rem;  
    text-align: center;
    
@@ -418,7 +409,7 @@ span{
    background: rgb(248, 114, 114);
    width: 25rem;
    height: 30rem;
-   left: 33px;
+   left: 25px;
    top: 18rem;
    text-align: center;
 
@@ -459,7 +450,7 @@ span{
    background: rgb(23, 92, 119);
    width: 25rem;
    height: 30rem;
-   left: 33px;
+   left: 25px;
    top: 18rem;
    text-align: center;
  }
@@ -484,7 +475,7 @@ span{
    background: rgba(10, 131, 168, 0.575);
    width: 25rem;
    height: 30rem;
-   left: 33px;
+   left: 25px;
    top: 19rem;
    text-align: center;
  }
@@ -505,7 +496,7 @@ span{
    background: rgb(173, 199, 28);
    width: 25rem;
    height: 30rem;
-   left: 33px;
+   left: 25px;
    top: 19rem;
    text-align: center;
  }
@@ -528,7 +519,7 @@ span{
    background: rgb(105, 19, 72);
    width: 25rem;
    height: 30rem;
-   left: 33px;
+   left: 25px;
    top: 19rem;
    text-align: center;
  }
@@ -546,7 +537,7 @@ span{
  }
  .background{
    position: relative;
-   width: 85rem;
+   width: 100%;
    height: 50rem;
    background-color: #575961;
    top: 20rem;
@@ -569,15 +560,7 @@ span{
   position: relative;
   top: 60px;
 }
-.sir-pic1:hover{
-  transform: scale(1.06);
-}
-.sir-pic2:hover{
-  transform: scale(1.06);
-}
-.sir-pic3:hover{
-  transform: scale(1.06);
-}
+ 
 .basic-cards{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -656,6 +639,7 @@ span{
 .adds-pic{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr ;
+  overflow-x: hidden;
    
  
   
@@ -885,6 +869,7 @@ color: rgb(117, 205, 240);
  .para1{
   position: relative;
   background-color: whitesmoke;
+ 
   width: 25rem;
   height: 10rem;
   left: 45px;
@@ -946,7 +931,70 @@ color: rgb(117, 205, 240);
 .para3 p:hover{
   color:rgb(243, 74, 12);
 }
- 
- 
+.finnal-background{
+  position: absolute;
+  background: whitesmoke;
+  width: 100%;
+  height: 25rem;
+  overflow: hidden;
+  
+   
+} 
+.finnal-background h6{
+  position: relative;
+  left: 9rem;
+  top: 3rem;
+}
+.finnal-background p{
+  position: relative;
+  background-color:white;
+  width: 23rem;
+  height: 6rem;
+  margin: 20px ;
+  padding: 20px;
+  top: 5rem;
+}
 
+ .finnal-background2 {
+  position: relative;
+ display: flex;
+  left: 23rem; 
+  bottom: 15rem;
+   
+  
+
+ }
+.finnal-background2 p{
+  position: relative;
+  width: 23rem;
+  height: 11rem;
+  margin: 20px ;
+  padding: 20px;
+}
+.finnal-background2 h6{
+  position: relative;
+  left: 14rem;
+  top: 3rem;
  
+}
+ 
+.footer{
+  position: relative;
+  background-color: #0b1331;
+  width: 100%;
+  height: 2rem;
+  top: 20rem;
+} 
+.footer p{
+  color: white;
+  opacity: .3;
+  margin: 2px;
+  font-size: 13px;
+}
+iframe{
+  position: absolute;
+  left: 60rem;
+  top: 271rem;
+  
+
+}
