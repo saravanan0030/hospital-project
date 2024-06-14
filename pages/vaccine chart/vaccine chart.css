@@ -1,0 +1,50 @@
+.img{
+    display:flex;
+    justify-content:space-between;
+}
+#menu-icon{
+    display: none;
+}
+.navbar a{
+    position: relative;
+    color: black;
+    padding-right: 1rem;
+    opacity: .6; 
+    font-size: 19px;
+    text-decoration: none;
+}
+.menu-bar{
+   position: sticky; 
+   font-family: sans-serif;
+   height: 70px;
+   top: 0px;
+   background-color:white;
+   z-index: 100;
+}
+.menu-bar{
+    padding-top: 1rem;
+
+    padding-left: 2rem;
+
+}
+ 
+a:hover:after{
+    width: 40px;
+
+}
+.navbar a:hover,
+.navbar a.active{
+    color:rgb(32, 32, 204);
+     
+    
+}
+
+.fussion-text{
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+.child.p{
+    font-family: sans-serif;
+}
