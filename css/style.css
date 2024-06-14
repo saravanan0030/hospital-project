@@ -24,7 +24,7 @@
 .icon-number{
     display: inline;
     color: white;
-    margin-left: 34%;
+    margin-left: 30%;
     font-weight: 700; 
 }
 .img1{ 
@@ -51,7 +51,6 @@
    position: sticky;
    height: 70px;
    top: 0px;
-   
    background-color:white;
    z-index: 100;
 }
@@ -84,6 +83,19 @@ a:hover:after{
     top: 59%;
     left: 7%;
     letter-spacing: 6px;    
+}
+@keyframes hname{
+  from{
+        transform: translatey(-100px);
+
+  }
+  to{
+      transform: translate(0);
+  }
+}
+.hospital-name{
+  animation-name:  hname;
+  animation-duration: 1s;
 }
 span{
     display: block;  
@@ -357,6 +369,8 @@ span{
  .bigcards{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
+  
+  
    
    
  }
@@ -368,6 +382,7 @@ span{
    left: 25px;
    top: 18rem;  
    text-align: center;
+ 
    
  }
  .cards1 h4{
@@ -376,27 +391,6 @@ span{
    font-weight: 550;
  }
  
-   
- 
- .cards1:hover{
-   transform: scale(1.06);
- }
- .cards2:hover{
-   transform: scale(1.06);
- }
- .cards3:hover{
-   transform: scale(1.06);
-
- }
- .cards4:hover{
-   transform: scale(1.06);
- }
- .cards5:hover{
-   transform: scale(1.06);
- }
- .cards6:hover{
-   transform: scale(1.06);
- }
  .cards1 p{
    position: relative;
    top: 40px;
@@ -412,6 +406,7 @@ span{
    left: 25px;
    top: 18rem;
    text-align: center;
+    
 
  }
  .cards2 h4{
@@ -453,6 +448,7 @@ span{
    left: 25px;
    top: 18rem;
    text-align: center;
+   
  }
  .cards3 h4:hover{
    color: rgb(24, 183, 247);
@@ -478,6 +474,7 @@ span{
    left: 25px;
    top: 19rem;
    text-align: center;
+   overflow: visible;
  }
  .cards4 h4{
    position: relative;
@@ -983,7 +980,7 @@ color: rgb(117, 205, 240);
   background-color: #0b1331;
   width: 100%;
   height: 2rem;
-  top: 20rem;
+  top: 22rem;
 } 
 .footer p{
   color: white;
@@ -994,7 +991,7 @@ color: rgb(117, 205, 240);
 iframe{
   position: absolute;
   left: 60rem;
-  top: 271rem;
+  top: 267rem;
   
 
 }
