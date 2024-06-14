@@ -141,7 +141,7 @@
 .about p{
     position: relative;
     background: whitesmoke;
-    
+    z-index: 10;
     width: 20rem;
     height: 6rem;
     left: 3rem;
@@ -187,26 +187,29 @@
     top: 28rem;
     padding: 13px;
 }
-.our-doctor h4{
-    position:  relative;
-    bottom: 33rem;
-    left: 65rem;
-
+.about{
+    overflow: hidden;
 }
+.our-doctor h4{
+    position: absolute;
+    right: 10rem;
+    top: 13rem;
+    transform: translate(-10rem,-6rem);
+}
+ 
+ 
 ul {
     position: relative;
     text-decoration: none;
-    bottom: 33rem;
-    display: flex;
-    font-size: 15px;
     left: 63rem;
+    bottom: 50rem;
+    transform: translate(-63rem,20rem);
+    margin-bottom: 10rem;
+    margin-left: 60rem;    
 }
  
-.rio-services{
- 
-     
 
-}
+
  
 .cards1{
     position: relative;
