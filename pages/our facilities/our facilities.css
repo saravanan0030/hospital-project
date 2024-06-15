@@ -1,149 +1,180 @@
-.img{
-    display:flex;
-    justify-content:space-between;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Nunito", "sans-serif";
+ 
+}
+#menu-raj{
+  margin-left: 1%;
+  margin-top: 1%;
+  color:white;
+ margin-bottom: 1%;
+
+}
+.font{
+  background-color: rgb(30, 172, 30);  
+}
+.icon-number{
+  display: inline;
+  color: white;
+  margin-left: 30%;
+  font-weight: 700; 
 }
 #menu-icon{
-    display: none;
+  display: none;
+  
 }
 .navbar a{
-    position: relative;
-    color: black;
-    padding-right: 1rem;
-    opacity: .6; 
-    font-size: 19px;
-    text-decoration: none;
+  position: relative;
+  color: black;
+  opacity: .6; 
+  font-size: 19px;
+  text-decoration: none;
 }
 .menu-bar{
-   position: sticky; 
-   font-family: sans-serif;
-   height: 70px;
-   top: 0px;
-   background-color:white;
-   z-index: 100;
+ position: sticky;
+ height: 70px;
+ top: 0px;
+ background-color:white;
+ z-index: 100;
 }
+
 .menu-bar{
-    padding-top: 1rem;
-
-    padding-left: 2rem;
-
+  padding-top: 1rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
- 
+
 a:hover:after{
-    width: 40px;
+  width: 40px;
 
 }
 .navbar a:hover,
 .navbar a.active{
-    color:rgb(32, 32, 204);
-     
-    
-}
-.Our-Facilities{
-    font-family:sans-serif;  
-    text-align: center;
-    font-size: 80%;
-    font-weight:normal; 
-    
-}
-
-.ambulance{
-    width: 600%;
-    height: fit-content;
-    position: relative;
-    vertical-align: middle;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    font-weight: lighter;
-
-    }
-
-.X-ray{
-    width: 400rex;
-    height: 100%;
-    position: center;
-    vertical-align: middle;
-    box-sizing: border-box; 
-    padding-left: 50rem;
-    font-family: sans-serif;
-} 
-
-.pharmacy{
-    font-family:sans-serif;
-    
-
-}
-
-.lab{
-    font-family: sans-serif;
-}
-
-.vaccination{
-    font-family: sans-serif;
-}
-.background1{
-    position: absolute;
-    width: 84rem;
-    height: 23rem;
-    background: #cacbd1;
-  }
-  .background1 h6{
-    position: relative;
-    left: 10rem;
-    top: 3rem;
-    font-weight: 550;
-  }
-  .background1 p{
-    position: relative;
-     left: 2rem;
-     top: 6rem;
+  color:rgb(32, 32, 204);
    
-  }
-  .background2{
-    position: absolute;
-    right: 2rem;
-    
-  } 
-  .background2 h6{
-    position: absolute;
-    top: 3rem;
-    left: 10rem;
-    font-weight: 550;
-  }
-  .background2 p{
-    position: relative;
-    left: 3rem;
-    top: 6rem;
-    padding: 20px;
-  }
-  iframe{
-    position: absolute;
-     
-     
-    bottom: 3rem;
-  }
-  .youtube-para{
-    position: relative;
-    right: 35%;
-    left: 31rem;
-    top: 20rem;
-    font-weight: 550;
-  }
-  .footer{
-    position: relative;
-    background-color: #414246;
-    width: 84rem;
-    height: 2rem;
-    top: 23rem;
-  }
-  .youtube{
-    width: 360px;
-    height: 260px;
-  }
-  .footer p{
-    position: absolute;
-    color: white;
-    font-size: small;
-    opacity: .6;
-    left: 3px; 
-  }
   
+}
+.img1{
+  margin: 20px;
+}
+.Our-Facilities-background{
+  background-color: whitesmoke;
+  width: 100%;
+  height: 6rem;
+}
+.Our-Facilities-background h6{
+  position: relative;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  top: 30px;
+  font-weight: 600;
+}
+.finnal-background{
+  position: absolute;
+  background: whitesmoke;
+  width: 100%;
+  height: 25rem;
+  overflow: hidden;
+  
+   
+} 
+.finnal-background h6{
+  position: relative;
+  left: 9rem;
+  top: 3rem;
+}
+.finnal-background p{
+  position: relative;
+  background-color:white;
+  width: 23rem;
+  height: 6rem;
+  margin: 20px ;
+  padding: 20px;
+  top: 5rem;
+}
+
+ .finnal-background2 {
+  position: relative;
+ display: flex;
+  left: 23rem; 
+  bottom: 15rem;
+   
+  
+
+ }
+.finnal-background2 p{
+  position: relative;
+  width: 23rem;
+  height: 11rem;
+  margin: 20px ;
+  padding: 20px;
+}
+.finnal-background2 h6{
+  position: relative;
+  left: 14rem;
+  top: 3rem;
+ 
+}
+ 
+.footer{
+  position: relative;
+  background-color: #0b1331;
+  width: 100%;
+  height: 2rem;
+  top: 23rem;
+} 
+.footer p{
+  color: white;
+  opacity: .3;
+  margin: 2px;
+  font-size: 13px;
+}
+iframe{
+  position: absolute;
+  left: 60rem;
+  top: 66rem;
+  
+
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 30px;
+}
+.container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ 
+  margin: 40px;
+
+}
+.container h4{
+  color: rgb(34, 148, 148);
+}
+.container2 h4{
+  color: rgb(34, 148, 148);
+}
+.container h4:hover{
+  color: rgb(236, 103, 55);
+}
+.container2 h4:hover{
+  color:  rgb(236, 103, 55);
+}
+.container h4{
+  margin-top: 10px;
+}
+.container2 h4{
+  margin-top: 10px;
+}
