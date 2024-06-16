@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +25,7 @@
   .icon-number{
       display: inline;
       color: white;
-      margin-left: 34%;
+      margin-left: 30%;
       font-weight: 700; 
   }
   .img1{ 
@@ -69,228 +70,47 @@
        
       
   }
-  .hospital-pic img{
-      margin-top:1%;
-      width: 106%;
-      height:490px;
-     
-  } 
-  .hospital-name{
-      color: white;
-      position: absolute;
-      top: 59%;
-      left: 7%;
-      letter-spacing: 6px;    
+  .container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 13rem;
+    margin: 5px; 
+    
   }
+  .test{
+    margin: 20px;
+    margin-right: 15px;
+
+  }
+  .test1{
+    margin: 20px;
+    text-align: center;
+  }
+  .container p{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 10rem;
+     padding: 10px;
+    border-radius: 30px;
+    opacity: 0.8;
+    row-gap: 10px;
+    align-content: center;
+    margin-bottom: 10px;
+     
+  }
+  .container p:hover{
+    background-color: white;
+  }
+  li a:hover{
+    color: rgb(253, 141, 101);
+    text-decoration: none;
+  }
+
+ 
   span{
       display: block;  
   }
-  .youtube-red{
-      position: absolute;
-      top: 80%;
-      right: 1%;
-      background-color:red;
-      border-radius: 1%;
-      padding: 14px 14px ;
-      font-size: 100%;
-      line-height: normal;
-  }
-  .youtube {
-      text-decoration-line: none;
-      font-size: 23px;
-      letter-spacing: 1px;
-      color: white;
-      padding: 26px 26px;
-  
-  }
-  @keyframes slideinleft {
-      from{
-            transform: translate(-1000px);
-  
-      }
-      to{
-          transform: translate(0);
-      }
-  }
-  .youtube-red{
-      animation-name: slideinleft;
-      animation-duration: 1s;
-      animation-delay: 1s;
-      animation-timing-function:ease-in ;
-      animation-iteration-count: 1;
-      animation-direction: normal;
-      animation-fill-mode: none;
-  }
-   .our-doctor h4{
-    margin-top: 10rem;
-   }
    
-   
-   .about h6{
-      position: relative;
-      left: 50%;
-      font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   }
-.about h4{
-    position: relative;
-    left: 8rem;
-    top: 2rem;
-
-}
-.about p{
-    position: relative;
-    background: whitesmoke;
-    z-index: 10;
-    width: 20rem;
-    height: 6rem;
-    left: 3rem;
-    padding: 10px;
-    gap: 20px;
-    top: 4rem;
-    font-size: 15px;
-}
-.about2 h4{
-    position: relative;
-    float: right;
-    bottom: 28rem;
-    right: 42rem;
-
-}
-.about3 h4{
-    position: relative;
-    float: right;
-    bottom: 13rem;
-    right: 34rem;
-
-}
-.about3 p{
-    position: relative;
-    background: whitesmoke;
-    overflow: hidden;
-    float: right;
-    width: 20rem;
-    height: 6rem;
-    padding: 10px;
-    font-size: 15px;
-    right: 20rem;
-    bottom: 10rem;
-    margin: 10px;
-}
-.about2  p{
-    position: absolute;
-    background: whitesmoke;
-    width: 20rem;
-    height: 6rem;
-    float: right;
-    left: 30rem;
-    top: 28rem;
-    padding: 13px;
-}
-.about{
-    overflow: hidden;
-}
-.our-doctor h4{
-    position: absolute;
-    right: 10rem;
-    top: 13rem;
-    transform: translate(-10rem,-6rem);
-}
- 
- 
-ul {
-    position: relative;
-    text-decoration: none;
-    left: 63rem;
-    bottom: 50rem;
-    transform: translate(-63rem,20rem);
-    margin-bottom: 10rem;
-    margin-left: 60rem;    
-}
- 
-
-
- 
-.cards1{
-    position: relative;
-    background: blue;
-    width: 39rem;
-    height: 19rem;
-    top: 10rem;
-
-}
-.cards2{
-    position: relative;
-    background: rgb(76, 151, 89);
-    width: 39rem;
-    height: 19rem;
-    top: 10rem;
-
-}
-.cards3{
-    position: relative;
-    background: rgb(10, 66, 38);
-    width: 39rem;
-    height: 19rem;
-    top: 10rem;
-
-}
-.cards4{
-    position: relative;
-    background: rgb(137, 137, 158);
-    width: 39rem;
-    height: 19rem;
-    top: 10rem;
-
-}
-.cards5{
-    position: relative;
-    background: rgb(33, 33, 128);
-    width: 39rem;
-    height: 19rem;
-    top: 10rem;
-
-}
-.cards6{
-    position: relative;
-    background: rgb(49, 49, 158);
-    width: 39rem;
-    height: 19rem;
-    top: 10rem;
-
-}
-.cards7{
-    position: relative;
-    background: rgb(219, 153, 29);
-    width: 39rem;
-    height: 19rem;
-    top: 10rem;
-
-}
-.cards8{
-    position: relative;
-    background: rgb(0, 255, 255);
-    width: 39rem;
-    height: 19rem;
-    top: 10rem;
-
-}
-.cards9{
-    position: relative;
-    background: rgb(9, 112, 126);
-    width: 39rem;
-    height: 19rem;
-    top: 10rem;
-
-}
-.cards10{
-    position: relative;
-    background: rgb(41, 5, 5);
-    width: 39rem;
-    height: 19rem;
-    top: 10rem;
-
-}
 .about-background{
     background-color: whitesmoke;
     width: 100%;
@@ -302,6 +122,570 @@ ul {
     display: flex;
     justify-content: center;
     text-align: center;
-    top: 20px;
+    top: 30px;
+    font-weight: 600;
+
+}
+.control{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 60px;
+}
+.control-card{
+    display: grid;
+    align-self: center;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px; 
+    gap: 10px 30px;
+    overflow: hidden;
+    
+  
+
+}
+.NICU{
+     background-color: rgb(154, 207, 207);
+     margin: 10px;
+     padding: 20px;
+     height: 23rem;
+     width: 38rem;
+     align-content: center;
+
+}
+.NICU p{
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 23px;
+
+    
+
+     
+}
+.NICU h5{
+    margin-left: 15rem;
+    font-weight: 500;
+    font-style: initial;
+    font-size: 23px;
+      
+}
+.PICU{
+    background-color: rgb(154, 68, 240);
+    margin: 10px;
+    padding: 20px;
+    height: 23rem;
+    width: 38rem;
+    align-content: center;
+
+}
+.PICU p{
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 23px;
+
+
+}
+.PICU h5{
+    margin-left: 15rem;
+    font-weight: 500;
+    font-style: initial;
+    font-size: 23px;
+      
+
+}
+.PaediatricAccidents{
+    background-color: rgb(207, 91, 38);
+    margin: 10px;
+    padding: 20px;
+    height: 23rem;
+    width: 38rem;
+    align-content: center;
+
+}
+.PaediatricAccidents p{
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 23px;
+
+}
+.PaediatricAccidents h5{
+    margin-left: 11rem;
+    font-weight: 500;
+    font-style: initial;
+    font-size: 23px;
+
+}
+.GeneralPaediatrics{
+    background-color: rgb(74, 175, 119);
+    margin: 10px;
+    padding: 20px;
+    height: 23rem;
+    width: 38rem;
+    align-content: center;
+
+}
+.GeneralPaediatrics p{
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 23px;
+
+}
+.GeneralPaediatrics h5{
+    margin-left: 11rem;
+    font-weight: 500;
+    font-style: initial;
+    font-size: 23px;
+
+}
+.MaternityCare{
+    background-color: rgb(90, 18, 52);
+    margin: 10px;
+    padding: 20px;
+    height: 23rem;
+    width: 38rem;
+    align-content: center;
+}
+.MaternityCare p{
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 23px;
+
+}
+.MaternityCare h5{
+    margin-left: 11rem;
+    font-weight: 500;
+    font-style: initial;
+    font-size: 23px;
+
+}
+.EmergencyService{
+    background-color: rgb(121, 151, 135);
+    margin: 10px;
+    padding: 20px;
+    height: 23rem;
+    width: 38rem;
+    align-content: center;
+
+}
+.EmergencyService p{
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 23px;
+
+}
+.EmergencyService h5{
+    margin-left: 11rem;
+    font-weight: 500;
+    font-style: initial;
+    font-size: 23px;
+
+}
+.PlasticSurgery{
+    background-color: rgb(154, 199, 252);
+    margin: 10px;
+    padding: 20px;
+    height: 23rem;
+    width: 38rem;
+    align-content: center;
+}
+.PlasticSurgery p{
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 23px;
+
+}
+.PlasticSurgery h5{
+    margin-left: 11rem;
+    font-weight: 500;
+    font-style: initial;
+    font-size: 23px;
+
+}
+.Pharmacy{
+    background-color: rgb(168, 224, 193);
+    margin: 10px;
+    padding: 20px;
+    height: 23rem;
+    width: 38rem;
+    align-content: center;
+}
+.Pharmacy p{
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 23px;
+  
+  
+}
+.Pharmacy h5{
+    margin-left: 11rem;
+    font-weight: 500;
+    font-style: initial;
+    font-size: 23px;
+}
+.HoursLab{
+    background-color: rgb(128, 222, 235);
+    margin: 10px;
+    padding: 20px;
+    height: 23rem;
+    width: 38rem;
+    align-content: center;
+
+
+}
+.HoursLab p{
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 23px;
+
+
+}
+.HoursLab h5{
+    margin-left: 11rem;
+    font-weight: 500;
+    font-style: initial;
+    font-size: 23px;
 }
  
+
+.VaccinationServices{
+    background-color: rgb(116, 218, 162);
+    margin: 10px;
+    padding: 20px;
+    height: 23rem;
+    width: 38rem;
+    align-content: center;
+
+
+}
+.VaccinationServices p{
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 23px;
+
+}
+.VaccinationServices h5{
+    margin-left: 11rem;
+    font-weight: 500;
+    font-style: initial;
+    font-size: 23px;
+
+}
+.maincontainer{
+    position: absolute;
+    width: 26rem;
+    height: 16rem;
+    margin: 20px;
+    left: 13px; 
+    
+
+ }
+ .thecard{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+ }
+ .thecard:hover{
+    transform: rotateY(180deg);
+ }
+ .frontcard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    background: rgb(64, 196, 248);
+    text-align: center;
+
+    
+ }
+ .frontcard h3{
+    position: relative;
+    color: white;
+    top: 3rem;
+    font-weight: 300;
+      
+     
+ }
+ .frontcard p{
+    position: relative;
+    top: 4rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+   
+     
+ }
+ 
+ .backcard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: rgb(64, 196, 248);
+    overflow: hidden;
+    transform: rotateY(180deg);
+    text-align: center;
+    margin: 10px;
+    
+ }
+ .backcard h4{
+    position: relative;
+    color: white;
+    top: 2rem;
+    margin: 10px;
+
+ }
+ .backcard p{
+    position: relative;
+    top: 3rem;
+    letter-spacing: 1px;
+    color: white;
+    opacity: .7;
+
+ }
+.maincontainer2{
+    position: absolute;
+    width: 24rem;
+    height: 15rem;
+    margin: 20px;
+    left: 30rem; 
+    text-align: center;
+
+}
+.thecard2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+.thecard2:hover{
+    transform: rotateY(180deg);
+ }
+ .frontcard2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    background: rgb(100, 253, 100);
+    
+ }
+ .frontcard2 h3{
+    position: relative;
+    color: white;
+    top: 3rem;
+    font-weight: 300;
+
+ }
+ .frontcard2 p{
+    position: relative;
+    top: 4rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+ }
+
+ .backcard2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: rgb(100, 253, 100);
+    overflow: hidden;
+    transform: rotateY(180deg);
+    
+ }
+ .backcard2 h4{
+    position: relative;
+    color: white;
+    top: 2rem;
+   
+ }
+ .backcard2 p{
+    position: relative;
+    top: 2rem;
+    letter-spacing: 1px;
+    color: white;
+    opacity: .7;
+ }
+ .backcard2 button{
+    position: relative;
+    top: 2rem;
+ }
+ .maincontainer3{
+    position: absolute;
+    width: 24rem;
+    height: 13rem;
+    margin: 20px;
+    left: 57rem;
+    text-align: center;
+}
+.thecard3{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+
+}
+.thecard3:hover{
+    transform: rotateY(180deg);
+ }
+ .frontcard3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    background: lightslategray;
+    
+    
+ }
+ .frontcard3 h3{
+    position: relative;
+    color: white;
+    top: 3rem;
+    font-weight: 300;
+     
+
+ }
+ .frontcard3 p{
+    position: relative;
+    top: 3rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding:1px;
+
+ }
+ .backcard3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: lightslategray;
+    overflow: hidden;
+    transform: rotateY(180deg);
+    
+ }
+ .backcard3 h4{
+    position: relative;
+    color: white;
+    top: 2rem;
+    margin: 20px;
+ }
+ .backcard3 p{
+    position: relative;
+    top: 10px;
+    letter-spacing: 1px;
+    color: white;
+    opacity: .7;
+
+ }
+  
+  .finnal-background{
+    position: absolute;
+    background: whitesmoke;
+    width: 100%;
+    height: 25rem;
+    overflow: hidden;
+    
+     
+  } 
+  .finnal-background h6{
+    position: relative;
+    left: 9rem;
+    top: 3rem;
+  }
+  .finnal-background p{
+    position: relative;
+    background-color:white;
+    width: 23rem;
+    height: 6rem;
+    margin: 20px ;
+    padding: 20px;
+    top: 5rem;
+  }
+  
+   .finnal-background2 {
+    position: relative;
+   display: flex;
+    left: 23rem; 
+    bottom: 15rem;
+     
+    
+  
+   }
+  .finnal-background2 p{
+    position: relative;
+    width: 23rem;
+    height: 11rem;
+    margin: 20px ;
+    padding: 20px;
+  }
+  .finnal-background2 h6{
+    position: relative;
+    left: 14rem;
+    top: 3rem;
+   
+  }
+   
+  .footer{
+    position: relative;
+    background-color: #0b1331;
+    width: 100%;
+    height: 2rem;
+    top: 23rem;
+  } 
+  .footer p{
+    color: white;
+    opacity: .3;
+    margin: 2px;
+    font-size: 13px;
+  }
+  iframe{
+    position: absolute;
+    left: 60rem;
+    top: 206rem;
+    
+  
+  }
