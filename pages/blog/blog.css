@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Nunito", "sans-serif";
+ 
+}
+#menu-raj{
+    margin-left: 1%;
+    margin-top: 1%;
+    color:white;
+   margin-bottom: 1%;
+
+}
+.font{
+    background-color: rgb(30, 172, 30);  
+}
+.icon-number{
+    display: inline;
+    color: white;
+    margin-left: 30%;
+    font-weight: 700; 
+}
+.img1{ 
+   display:inline; 
+   margin-left: 2%;
+   
+  
+}
+#photo{
+    margin-top: 1%;
+}
+#menu-icon{
+     display: none;
+     
+}
+.navbar a{
+    position: relative;
+    color: black;
+    opacity: .6; 
+    font-size: 19px;
+    text-decoration: none;
+}
+.menu-bar{
+   position: sticky;
+   height: 70px;
+   top: 0px;
+   background-color:white;
+   z-index: 100;
+}
+
+.menu-bar{
+    padding-top: 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+ 
+a:hover:after{
+    width: 40px;
+
+}
+.navbar a:hover,
+.navbar a.active{
+    color:rgb(32, 32, 204);
+     
+    
+}
+.blog{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 6rem;
+}
+.blog h6{
+    position: relative;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    top: 30px;
+    font-weight: 600;
+
+}
+.container-adds{
+    display: grid;
+    place-items: center;
+    margin-inline: 1.5rem;
+    padding-block: 5rem;
+  }
+  .card__container{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     row-gap: 3.5rem;
+     gap: 30PX;
+  }
+  .card__article{
+    position: relative;
+    overflow: hidden;
+  }
+  .card__img{
+    width: 328px;
+    border-radius: 1.5rem;
+    
+  }
+  .card__data{
+    width: 23rem;
+    height: 16rem;
+    background-color:  white;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 8px 24px hsl(0,0%,0%,.15);
+    border-radius: 1rem;
+    position:absolute;
+    bottom: -2rem;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    opacity: 0;
+    transition: opacity 1s 1s;
+    z-index: 10;
+  }
+  .card__button{
+  position: relative;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(117, 205, 240);
+  }
+  .card__button:hover{
+    text-decoration: underline;
+  }
+  
+  .card__article:hover .card__data{
+    animation: show-data 1s forwards;
+    opacity: 2;
+    transition: opacity .3s;
+  }
+  .card__article:hover{
+    animation: remove-overflow 1s forwards;
+  
+  }
+  .card__data:not(:hover){
+    animation: show-overflow 1s forwards;
+  }
+  .card__data:not(:hover){
+    animation: remove-data 1s forwards;
+  }
+   
+  
+  @keyframes show-data{
+    50%{
+      transform: translateY(-10rem);
+    }
+    100%{
+      transform: translateY(-7);
+    }
+  }
+  
+  @keyframes remove-overflow{
+    to{
+  
+       overflow: initial;
+       
+    }
+  }
+  
+  @keyframes remove-data{
+    0%{
+      transform: translateY(-7);
+    }
+    50%{
+      transform: translateY(-10rem);
+    }
+    100%{
+      transform: translateY(.5rem);
+    }
+  }
+  
+  @keyframes show-overflow{
+    0%{
+      overflow: initial;
+      pointer-events: none;
+  
+    }
+    50%{
+      overflow: hidden;
+    }
+  }
+  .background-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     row-gap: 3.5rem;
+     gap: 30PX;
+  
+   
+    
+  }
+   .para1{
+    position: relative;
+    background-color: whitesmoke;
+   
+    width: 25rem;
+    height: 10rem;
+    left: 45px;
+    bottom: 82px;
+    z-index: 0;
+     
+    padding: 16px;
+   }
+   .para2{
+    position: relative;
+    background-color: whitesmoke;
+    width: 25rem;
+    height: 10rem;
+     left: 1rem;
+    bottom: 82px;
+    z-index: 0;
+    
+   padding: 16px;
+   }
+   .para3{
+    position: relative;
+    background-color: whitesmoke;
+    width: 25rem;
+    height: 10rem;
+     right: 1rem;
+    bottom: 82px;
+    z-index: 0;
+     
+    padding: 16px;
+   }
+   .para1 p{
+    position: relative;
+    top: 50px;
+    opacity: .8; 
+    font-size: 16px;
+    letter-spacing: 1px;
+    
+   }
+   .para2 p{
+    position: relative;
+    top: 50px;
+    opacity: .8; 
+    font-size: 16px;
+    letter-spacing: 1px;
+   }
+   .para3 p{
+    position: relative;
+    top: 50px;
+    opacity: .8; 
+    font-size: 16px;
+    letter-spacing: 1px;
+   }
+   .para1 p:hover{
+     color:rgb(243, 74, 12);
+   }
+   .para2 p:hover{
+    color:rgb(243, 74, 12);
+  }
+  .para3 p:hover{
+    color:rgb(243, 74, 12);
+  }
+  .finnal-background{
+    position: absolute;
+    background: whitesmoke;
+    width: 100%;
+    height: 25rem;
+    overflow: hidden;
+    
+     
+  } 
+  .finnal-background h6{
+    position: relative;
+    left: 9rem;
+    top: 3rem;
+  }
+  .finnal-background p{
+    position: relative;
+    background-color:white;
+    width: 23rem;
+    height: 6rem;
+    margin: 20px ;
+    padding: 20px;
+    top: 5rem;
+  }
+  
+   .finnal-background2 {
+    position: relative;
+   display: flex;
+    left: 23rem; 
+    bottom: 15rem;
+     
+    
+  
+   }
+  .finnal-background2 p{
+    position: relative;
+    width: 23rem;
+    height: 11rem;
+    margin: 20px ;
+    padding: 20px;
+  }
+  .finnal-background2 h6{
+    position: relative;
+    left: 14rem;
+    top: 3rem;
+   
+  }
+   
+  .footer{
+    position: relative;
+    background-color: #0b1331;
+    width: 100%;
+    height: 2rem;
+    top: 23rem;
+  } 
+  .footer p{
+    color: white;
+    opacity: .3;
+    margin: 2px;
+    font-size: 13px;
+  }
+  iframe{
+    position: absolute;
+    left: 60rem;
+    top: 70rem;
+    
+  
+  }
