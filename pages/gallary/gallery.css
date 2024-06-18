@@ -83,10 +83,15 @@ a:hover:after{
  display:  flex;
 grid-template-columns: 1fr 1fr 1fr;
 flex-wrap: wrap;
-justify-content: space-around;
-row-gap: 20px;
+justify-content: space-evenly;
+gap: 30px ;
+overflow: hidden;
+
+ 
  
 }
-.img:hover{
-  
+.pics:hover{
+  transform: scale(1.06);
+ 
+   
 }
