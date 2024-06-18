@@ -79,3 +79,11 @@ a:hover:after{
   top: 30px;
   font-weight: 600;
 }
+.img{
+ display:  flex;
+grid-template-columns: 1fr 1fr 1fr;
+flex-wrap: wrap;
+justify-content: space-around;
+row-gap: 20px;
+ 
+}
