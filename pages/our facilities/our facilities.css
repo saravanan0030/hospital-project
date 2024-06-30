@@ -63,7 +63,12 @@ a:hover:after{
   
 }
 .img1{
-  margin: 20px;
+   
+  display: inline;
+  margin-left: 2%;
+ 
+  
+ 
 }
 .Our-Facilities-background{
   background-color: whitesmoke;
@@ -150,7 +155,7 @@ iframe{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 30px;
+  margin: 40px;
 }
 .container2{
   display: flex;

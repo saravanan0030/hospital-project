@@ -186,11 +186,11 @@ iframe{
 }
 .container2{
   display: flex;
-  justify-content: center;
+  justify-content:  space-around;
   margin: 10px;
   flex-direction:  row;
   margin-bottom: 10px;
-  padding: 20px;
+   margin: 40px;
   column-gap: 35px;
 }
 span{
@@ -198,11 +198,11 @@ span{
 }
 .container3{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin: 10px;
   flex-direction:  row;
   margin-bottom: 10px;
-  padding: 20px;
+  margin: 40px;
   column-gap: 35px;
   
 
@@ -218,4 +218,102 @@ span{
   margin: 6px;
   
 }
+.containerlast{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  flex-direction:  row;
+  margin-bottom: 10px;
+  margin: 40px;
+  column-gap: 35px;
+}
+.containerlast h3{
+  font-size: 23px;
+  color: rgb(111, 218, 218);
+  margin: 6px;
+}
+.containerlast h3:hover {
+  color: orange;
+  cursor: pointer;
+}
+.container2 h3:hover {
+  color: orange;
+  cursor: pointer;
+}
+.container3 h3:hover {
+  color: orange;
+  cursor: pointer;
+}
+.control{
+  display: flex;
+  align-items: center;
+  justify-content:  end;
+  justify-content: center;
+  margin-right: 30px;
+ 
+} 
+.pagination{
+  display: flex;
+  width: 26rem;
+  height: 10vh;
+  background-color: aliceblue;
+  color: #384848;
+  border-radius: 16px;
+  padding: 10px 10px;
+}
+ 
+ul li{
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 90%;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 45px;
+  cursor: pointer;
+  justify-self: center;
+  background-position: 0 -45px;
+  transition: background-position 0.10s;
+}
+.btn2 img{
+   margin-left: 15px;
+   transform: rotate(180deg);
+}
+.btn img{
+  margin-right: 15px;
+}
+ul li.active1{
+  background-color: orangered;
+  background-position: 0 0;
+  transition: 0.2s ease-in;
+  transform: translatez(-50px);
+} 
+.btn{
+  display: inline;
+  align-items:center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #383838;
+  background: transparent;
+  margin-left: 8px;
+  
+ 
+
+}
+.btn2{
+  display: inline;
+  align-items:center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #383838;
+  background: transparent;
+  margin-left: 30px;
+  margin-top: 7px;
+
+}
+ul li a{
+  text-decoration: none;
+}
+ 
  
