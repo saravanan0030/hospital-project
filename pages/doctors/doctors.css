@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Nunito", "sans-serif";
+}
+
+
+#menu-raj{
+  margin-left: 1%;
+  margin-top: 1%;
+  color:white;
+ margin-bottom: 1%;
+
+}
+.font{
+  background-color: rgb(30, 172, 30);  
+}
+.icon-number{
+  display: inline;
+  color: white;
+  margin-left: 30%;
+  font-weight: 700; 
+}
+
+
+#menu-icon{
+     display: none;
+     
+}
+.navbar a{
+    position: relative;
+    color: black;
+    opacity: .6; 
+    font-size: 19px;
+    text-decoration: none;
+}
+.menu-bar{
+   position: sticky;
+   height: 70px;
+   top: 0px;
+   background-color:white;
+   z-index: 100;
+}
+
+.menu-bar{
+    padding-top: 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+a:hover:after{
+  width: 40px;
+
+}
+.navbar a:hover,
+.navbar a.active{
+  color:rgb(32, 32, 204);
+   
+  
+}
+.Doctor{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 6rem;
+    bottom:5rem;
+  }
+  .Doctor h6{
+    position: relative;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    top: 30px;
+    font-weight: 600;
+  
+  }
+  .meet{
+    font-family: sans-serif;
+    font-size:50px ;
+    text-align: center;
+  }
+
+  .rio{
+    text-align: center;
+    margin: 0%;
+    font-size: 10px;
+    font-family: sans-serif;
+  }
+
+  .sir1{
+    width: 500px;
+    height: auto
+  }
+
+  .sir2{
+    width: 500px;
+    height: auto;
+    position:relative;
+  }
+
+  .sir3{
+    width: 500px;
+    height: auto;
+    position:relative;
+  }
+
+  .sir4{
+    width: 500px;
+    height: auto;
+    position:relative;
+  }
+
+  .sir5{
+    width: 500px;
+    height: auto;
+    position:relative;
+  }
+
+.sir6{
+    width: 500px;
+    height: auto;
+    position:relative;
+  }
+  .doc-button{
+    width: 500px;
+    color:aliceblue;
+    
+  }
+
+
+  .finnal-background{
+    position: absolute;
+    background: whitesmoke;
+    width: 100%;
+    height: 25rem;
+    overflow: hidden;
+    
+     
+  } 
+  .finnal-background h6{
+    position: relative;
+    left: 9rem;
+    top: 3rem;
+  }
+  .finnal-background p{
+    position: relative;
+    background-color:white;
+    width: 23rem;
+    height: 6rem;
+    margin: 20px ;
+    padding: 20px;
+    top: 5rem;
+  }
+  
+   .finnal-background2 {
+    position: relative;
+    display: flex;
+    left: 23rem; 
+    bottom: 15rem;
+     
+    
+  
+   }
+  .finnal-background2 p{
+    position: relative;
+    width: 23rem;
+    height: 11rem;
+    margin: 20px ;
+    padding: 20px;
+  }
+  .finnal-background2 h6{
+    position: relative;
+    left: 14rem;
+    top: 1rem;
+   
+  }
+   
+  .footer{
+    position: relative;
+    background-color: #0b1331;
+    width: 100%;
+    height: 2rem;
+    top: 23rem;
+  } 
+  .footer p{
+    color: white;
+    opacity: .3;
+    margin: 2px;
+    font-size: 13px;
+  }
+  iframe{
+    position: absolute;
+    left: 60rem;
+    top: 70rem;
+  }
+  
+  .youtube{
+    position: relative;
+    top: 1rem;
+  }
