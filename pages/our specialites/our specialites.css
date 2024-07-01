@@ -379,74 +379,91 @@ iframe{
 .control{
   display: flex;
   align-items: center;
-  justify-content:  end;
+  justify-content:   center;
   justify-content: center;
   margin-right: 30px;
  
 } 
-.pagination{
+.box3{
+  padding: 8px;
+  margin-left: 35%;
+  border-radius: 100px;
+  box-shadow: 0px 10px 30px -15px #000;
+  width: 25rem;
+  max-height: 6rem;
   display: flex;
-  width: 26rem;
-  height: 10vh;
-  background-color: aliceblue;
-  color: #384848;
-  border-radius: 16px;
-  padding: 10px 10px;
+  align-items: center;
+  justify-content: center
 }
  
-ul li{
-  display: inline-block;
-  width: 45px;
-  height: 45px;
-  border-radius: 90%;
-  text-align: center;
-  font-size: 23px;
-  font-weight: 500;
-  line-height: 45px;
-  cursor: pointer;
-  justify-self: center;
-  background-position: 0 -45px;
-  transition: background-position 0.10s;
-}
-.btn2 img{
-   margin-left: 15px;
-   transform: rotate(180deg);
-}
-.btn img{
-  margin-right: 15px;
-}
-ul li.active1{
-  background-color: orangered;
-  background-position: 0 0;
-  transition: 0.2s ease-in;
-  transform: translatez(-50px);
-} 
-.btn{
-  display: inline;
-  align-items:center;
-  font-size: 18px;
-  font-weight: 500;
-  color: #383838;
-  background: transparent;
-  margin-left: 8px;
+ 
+.box3 ul li{
+  list-style: none;
+  margin: 0px 5px;
+  width: 60px;
+  height: 10px;
+  line-height: 40px;
+  align-items: center;
+  border-radius: 100px;
+ 
   
  
-
 }
-.btn2{
-  display: inline;
-  align-items:center;
-  font-size: 18px;
-  font-weight: 500;
-  color: #383838;
-  background: transparent;
-  margin-left: 30px;
-  margin-top: 7px;
-
+.box3 ul{
+  display: flex;
 }
-ul li a{
+.box3 ul li a{
+  font-size: 23px;
   text-decoration: none;
+  color: #000;
+  display:  flex;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+   
 }
+.box3 ul li a:hover
+ {
+  background-color: orangered;
+  
+}
+.box3 button a:hover{
+ text-decoration: overline;
+  
+}
+.box3 button a{
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  text-decoration: none;
+  justify-content: center;
+  
+  
+  
+}
+.box3 button{
  
+<<<<<<< HEAD
  
 >>>>>>> e661c864fbd4bd7629d21e6dbfc79aac71f5c2ce
+=======
+  text-decoration: none;
+  background: none;
+  
+}
+.box3 ul li .active_page{
+  background-color: orangered;
+  color: white;
+  
+
+}
+.box3 ul li{
+  margin-bottom: 10px;
+  margin-right: 20px;
+  
+}
+ 
+>>>>>>> eb9a447d2fb91f89b52ea81076086476fd336b82

@@ -84,3 +84,276 @@
     
 
 }
+.heading{
+    font-weight: 26px;
+    display: block;
+     margin: 2rem 3rem;
+     opacity: 0.9;
+}
+.pics{
+    margin: 2rem;
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-between;
+}
+.butten1{
+    display: inline;
+    background-color: rgb(250, 71, 6);
+    color: white;
+    padding: 10px;
+    width:  18rem;
+    height: 3rem;
+    opacity: 0.7;
+    margin-left: 20px;
+   
+
+}
+.butten1 button{
+    display: flex;
+    background-color: rgb(252, 70, 4);
+    align-items: center;
+    justify-content: center;
+    color: white;
+     padding: 5px;
+     opacity: 0.8;
+     border: 10px 40pc 15px -20px #000;
+}
+.para_head{
+    font-weight: 16px;
+    color: black;
+    font-size: bold;
+    margin: 3rem 3rem;
+}
+.butten1:hover{
+    background-color: orangered;
+    opacity: 2.0;
+}
+ .para_head h5{
+    position: relative;
+    font-weight: 20px;
+    bottom: 9rem;
+    transform: translate(-8rem -10rem);
+  
+     
+ }
+ #icons{
+    font-size: 20px;
+ }
+ .paragraph{
+    margin: 2rem;
+    font-size: 20px;
+    opacity: 0.9;
+    position: relative;
+    bottom: 130px;
+    left: 70px;
+    margin-left: 8rem;
+    margin-top: 6rem;
+    transform: translate(-130px,-70px);
+    
+ }
+ span{
+    display: block;
+ }
+ .mam{
+    float: right;
+    background-color: wheat;
+    width: 26%;
+    position: relative;
+     bottom: 17rem;
+     left: 4rem;
+     display: inline;
+    
+     
+   
+ }
+ .mam h4 {
+    display: flex;
+    justify-content: center;
+      
+  
+
+ }
+ .per{
+    
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+ }
+ .detail h3{
+    margin: 2rem;
+    margin-left: 60px;
+ }
+ .paras{
+     font-size: 20px;
+     font-style:  inherit;
+    opacity: 0.9;
+    padding: 0px 5rem;
+    letter-spacing: 1px;
+    
+ }
+ .pic1{
+    display: flex;
+    margin: 2rem;
+ }
+ #info{
+    margin-left: 50rem;
+ }
+ .class2{
+   display: flex;
+   justify-content:   end;
+   position: relative;
+   bottom: 20rem;
+   transform: translate(-20rem);
+   margin: 10px;
+   margin-right: -10rem;
+
+ }
+ 
+ .divs  p{
+   display:  block; 
+    align-items: center;
+   margin: 6px;
+   font-size: 20px;
+   font-family: inherit;
+   opacity: 0.8;
+   
+ }
+  .class p{
+    font-size: 20px;
+    font-family: inherit;
+    margin: 6px;
+    margin-left: 60px;
+    opacity: 0.8;
+ }
+ .class5 p{
+    font-size: 20px;
+    font-family: inherit;
+    margin: 6px;
+    margin-left: 60px;
+    opacity: 0.8;
+ }
+ .class6{
+    font-size: 20px;
+    font-family: inherit;
+    margin: 6px;
+    margin-left: 60px;
+    opacity: 0.8;
+ }
+ .class6 p{
+    font-size: 20px;
+    font-family: inherit;
+    margin: 6px;
+    margin-left: 60px;
+    opacity: 0.8;
+ }
+ .class5{
+    font-size: 20px;
+    font-family: inherit;
+    margin: 6px;
+    margin-left: 60px;
+    opacity: 0.8;
+ }
+ .drop{
+    margin-top: -7rem;
+ }
+ .class5 h5{
+    margin-left: 20px;
+ }
+.class6 h5{
+    margin-left: 20px;
+} 
+.class7{
+    font-size: 20px;
+    font-family: inherit;
+    margin: 6px;
+    margin-left: 60px;
+    opacity: 0.8;
+}
+.class7 h5{
+    margin-left: 20px;
+}
+.class7 p{
+    font-size: 20px;
+    font-family: inherit;
+    margin: 6px;
+    margin-left: 60px;
+    opacity: 0.8;
+}
+ 
+.finnal-background{
+    position: absolute;
+    background: whitesmoke;
+    width: 100%;
+    height: 25rem;
+    top: 223rem;
+    overflow: hidden;
+    margin-top: -13rem;
+    
+     
+  } 
+  .finnal-background h6{
+    position: relative;
+    left: 9rem;
+    top: 3rem;
+  }
+  .finnal-background p{
+    position: relative;
+    background-color:white;
+    width: 23rem;
+    height: 6rem;
+    margin: 20px ;
+    padding: 20px;
+    top: 5rem;
+  }
+  
+   .finnal-background2 {
+    position: relative;
+    display: flex;
+    left: 23rem; 
+    bottom: 15rem;
+     
+    
+  
+   }
+  .finnal-background2 p{
+    position: relative;
+    width: 23rem;
+    height: 11rem;
+    margin: 20px ;
+    padding: 20px;
+  }
+  .finnal-background2 h6{
+    position: relative;
+    left: 14rem;
+    top: 3rem;
+   
+  }
+   
+  .footer{
+    position: relative;
+    background-color: #0b1331;
+    width: 100%;
+    height: 2rem;
+    top: 30rem;
+  } 
+  .footer p{
+    color: white;
+    opacity: .3;
+    margin: 2px;
+    font-size: 13px;
+  }
+  iframe{
+    position: absolute;
+    left: 60rem;
+    top: 216rem;
+    
+  
+  }
+ .per:hover{
+    background: lightslategray;
+    color: #fff;
+ }
+
+ 
+ 
+   
