@@ -79,3 +79,133 @@ a:hover:after{
   top: 30px;
   font-weight: 600;
 }
+.img{
+ display:  flex;
+grid-template-columns: 1fr 1fr 1fr;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px ;
+overflow: hidden;
+ 
+}
+.pics:hover{
+  transform: scale(1.06);
+  transform: 2s;
+  cursor: pointer;
+   
+}
+span{
+  display: block;
+}
+ 
+.finnal-background{
+  position: absolute;
+  background: whitesmoke;
+  width: 100%;
+  height: 25rem;
+  overflow: hidden;
+  
+   
+} 
+.finnal-background h6{
+  position: relative;
+  left: 9rem;
+  top: 3rem;
+}
+.finnal-background p{
+  position: relative;
+  background-color:white;
+  width: 23rem;
+  height: 6rem;
+  margin: 20px ;
+  padding: 20px;
+  top: 5rem;
+}
+
+ .finnal-background2 {
+  position: relative;
+ display: flex;
+  left: 23rem; 
+  bottom: 15rem;
+   
+  
+
+ }
+.finnal-background2 p{
+  position: relative;
+  width: 23rem;
+  height: 11rem;
+  margin: 20px ;
+  padding: 20px;
+}
+.finnal-background2 h6{
+  position: relative;
+  left: 14rem;
+  top: 3rem;
+ 
+}
+ 
+.footer{
+  position: relative;
+  background-color: #0b1331;
+  width: 100%;
+  height: 2rem;
+  top: 23rem;
+} 
+.footer p{
+  color: white;
+  opacity: .3;
+  margin: 2px;
+  font-size: 13px;
+}
+iframe{
+  position: absolute;
+  left: 60rem;
+  top: 148rem;
+  
+
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-wrap: wrap;
+justify-content: center;
+gap: 40px ;
+overflow: hidden;
+margin: 30px;
+ 
+ 
+
+}
+img:hover{
+  transform: scale(1.06);
+  cursor: pointer;
+  transform: matrix3d(2s);
+  
+}
+.container1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-wrap: wrap;
+justify-content: center;
+gap: 40px ;
+overflow: hidden;
+margin: 30px;
+ 
+}
+.aniversary{
+  background-color: whitesmoke;
+  width: 100%;
+  height: 6rem;
+}
+.aniversary h6{
+  position: relative;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  top: 30px;
+  font-weight: 600;
+}
+ 
+ 
