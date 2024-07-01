@@ -993,46 +993,5 @@ iframe{
   
 
 }
-.nav-contant{
-  position: absolute;
-  top: 54px;
-  overflow: hidden;
-  min-width: 200px;
-  background-color: rgb(226, 218, 218);
-  left: 53rem; 
-  display: none;
-  
-   
- 
-  
-}
-#nav-item:hover{
-     display: block;
-}
- 
- 
-.nav-contant a{
-   
-  color: rgb(19, 18, 18);
- 
- 
-
-} 
-.nav-sub {
-  display: flex;
-  flex-direction: column;
- 
-}
-.nav-sub  a{
-  display: block;
-  width: 100%;
-  padding: 10px 10px 10px 20px;
-  text-decoration: none;
-   
-}
- 
- li {
-  list-style: none;
- }
  
  
