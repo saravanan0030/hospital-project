@@ -1,14 +1,21 @@
- 
-<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Nunito", "sans-serif";
+}
 #menu-raj{
     margin-left: 1%;
     margin-top: 1%;
     color:white;
    margin-bottom: 1%;
-=======
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
->>>>>>> e661c864fbd4bd7629d21e6dbfc79aac71f5c2ce
-
+}
+ 
 .about-background h6{
   position: relative;
   font-size: 18px;
@@ -189,26 +196,7 @@ a:hover:after{
 
 
 
-<<<<<<< HEAD
-a
-=======
-
->>>>>>> e661c864fbd4bd7629d21e6dbfc79aac71f5c2ce
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    scroll-behavior: smooth;
-    font-family: "Nunito", "sans-serif";
-   
-  }
-  
  
-<<<<<<< HEAD
-
  
-=======
->>>>>>> e661c864fbd4bd7629d21e6dbfc79aac71f5c2ce
+ 
+ 
