@@ -95,44 +95,32 @@ a:hover:after{
   }
 
   .sir1{
-    width: 500px;
+    width: 300px;
     height: auto
   }
+.doc{
+  display: flex;
+  justify-content:  space-evenly;
+  flex-direction: row;
+   row-gap: 10rem;
+ 
 
-  .sir2{
-    width: 500px;
-    height: auto;
-    position:relative;
-  }
+}
+.title h3{
+  font-size: 16px;
 
-  .sir3{
-    width: 500px;
-    height: auto;
-    position:relative;
-  }
-
-  .sir4{
-    width: 500px;
-    height: auto;
-    position:relative;  
-  }
-
-  .sir5{
-    width: 500px;
-    height: auto;
-    position:relative;
-  }
-
-.sir6{
-    width: 500px;
-    height: auto;
-    position:relative;
-  }
-  .doc-button{
-    width: 500px;
-    color:aliceblue;
-    
-  }
+  
+}
+.title  {
+  gap: 30rem;
+  padding: 1rem;
+  background-color: aqua;
+  color: black;
+  width: auto;
+  max-height: auto;
+}
+   
+  
 
 
   .finnal-background{
@@ -141,6 +129,8 @@ a:hover:after{
     width: 100%;
     height: 25rem;
     overflow: hidden;
+
+    
     
      
   } 
@@ -198,10 +188,17 @@ a:hover:after{
   iframe{
     position: absolute;
     left: 60rem;
-    top: 70rem;
+    top: 118rem;
   }
-  
-  .youtube{
-    position: relative;
-    top: 1rem;
+  .meet{
+    margin: 20px;
   }
+  .rio h4{
+     padding: 30px 30px ;
+     margin: 30px;
+  }
+  .doc{
+    display: flex;
+
+  }
+   
