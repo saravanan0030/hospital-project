@@ -991,8 +991,48 @@ iframe{
   position: absolute;
   left: 60rem;
   top: 267rem;
-  
-
 }
- 
+ .nav-container{
+  position: absolute;
+  top: 54px;
+  overflow: hidden;
+  background-color: white;
+  cursor: pointer;
+  min-width: 200px;
+  left: 53rem;
+  max-height: 0;
+   
+  
+}
+.nav-container a{
+  text-decoration: none;
+  cursor: pointer;
+   
+}
+.nav-sub ul{
+display: flex;
+flex-direction:  column;
+}
+ .nav-sub ul li al{
+  display: block;
+  width: 100px;
+  padding: 20px;
+  transition: 0.5s;
+  margin: 10px;
+
+ }
+ ul li {
+  list-style: none;
+ }
+ .nav-item:hover .nav-container{
+  max-height: 400px;
+  transition: 0.4s ease-in;
+
+ }
+ .nav-item ul:focus{
+  background-color: #575961;
+ }
+ .nav-container:focus{
+  background-color: #575961;
+ }
  
